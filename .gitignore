@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# KiCad backups and local state
+Pocket 2.66-backups/
+*.bak
+*.kicad_prl
+.history/
+
+# Production backups
+production/backups/
+
+# Claude Code settings
+libs/.claude/

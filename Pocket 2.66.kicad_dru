@@ -1,0 +1,26 @@
+(version 1)
+(rule Minimum_annular_width_1
+	(constraint annular_width (min 0.05mm))
+)
+(rule Minimum_drill_size_1
+	(constraint hole_size (min 0.3mm))
+)
+(rule Hole_to_hole_distance_1
+	(constraint hole_to_hole (min 0.2mm))
+)
+(rule Via_style_1
+	(constraint via_diameter (min 0.4mm) (max 10mm))
+	(constraint hole_size (min 0.3mm) (max 10mm))
+)
+(rule Minimum_soldermask_sliver_1
+	(constraint solder_mask_sliver (min 0.1mm))
+)
+(rule Minimum_clearance_1
+	(constraint clearance (min 0.12mm))
+)
+(rule Copper_to_edge_clearance_1
+	(constraint edge_clearance (min 0.2mm))
+)
+(rule Courtyard_clearance_1
+	(constraint courtyard_clearance (min 0.1mm))
+)
