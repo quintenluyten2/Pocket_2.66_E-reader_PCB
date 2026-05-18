@@ -5,6 +5,7 @@
 Pocket 2.66-backups/
 *.bak
 *.kicad_prl
+*.lck
 .history/
 
 # Production backups

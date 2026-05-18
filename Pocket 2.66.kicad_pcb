@@ -256,6 +256,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4019aef-72d3-48b2-8eb5-166a2772b482")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e08a3a19-44a3-4026-bb82-8f8cc6e0729d")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -506,6 +519,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "899e9d67-bb00-4161-8283-34804a3e212a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/50afd013-d7f2-4d0d-8845-9e15d4d5407d")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -734,6 +760,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "283cc1f4-0e09-4ca3-a6e6-be0db9fc40be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45bf9bec-47e5-4538-8305-0f25ef40d164")
 			(effects
 				(font
 					(size 1 1)
@@ -1012,6 +1051,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "458f4143-18ca-4a6c-b893-8a3d556aa3f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ff512cc0-8c6c-48a1-af00-2551578a8845")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -1268,6 +1320,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "539aadc9-27a6-4a81-ad98-bae027529ede")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5acf5268-186a-40df-b9fe-a8e254b328e2")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -1495,6 +1560,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f97232e-27ea-49c2-99b0-ee6a50f67a48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0c13d384-6d62-41fc-9bbe-9d39e5e0c5b4")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -1715,6 +1793,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5312b1c-1aa3-4039-bed6-1831266f6c3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd42e524-e26f-468b-a07c-1acab17e6a66")
 			(effects
 				(font
 					(size 1 1)
@@ -1956,6 +2047,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c774d124-0cd4-4023-923e-85b53e9eaa3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d90ac630-7b54-4827-977b-ad8049e8fef5")
 			(effects
 				(font
 					(size 1 1)
@@ -2234,6 +2338,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e3f6a3d-6116-4d49-a7f4-3d94b8d8867b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0914ea85-20ce-4d6c-93d1-bb0504b01df2")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -2498,6 +2615,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e123f4b4-b254-45f4-a1f2-0f30f3d0002f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4309a83-ca2f-42f4-b99f-d21a4dd382bc")
 			(effects
 				(font
 					(size 1 1)
@@ -2776,6 +2906,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c09b1d1e-81e2-4f50-affa-ef3d660fcf15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/19cc700d-87a8-4b10-9350-74d233c944ce")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -2983,6 +3126,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "589c3ee4-b0f8-4c3a-8ef4-5ae05941a4f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baa6e9b0-0d15-49c1-8624-85d80d2e7331")
 			(effects
 				(font
 					(size 1 1)
@@ -3217,6 +3373,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3775a0bd-d4bc-4949-b24f-997a61ce3000")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ea26c282-c8a8-4b5d-85a2-b694c5a4ac16")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -3437,6 +3606,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "817425d1-2fab-4c09-b109-b8d47668246a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ce8a28f-5515-4f45-94ba-4af1131cef8a")
 			(effects
 				(font
 					(size 1 1)
@@ -3676,6 +3858,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc7077bc-022d-4582-9205-19b5ff8229bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31d8aac2-5a41-4d8d-b650-a2c21ed31103")
 			(effects
 				(font
 					(size 1 1)
@@ -4160,6 +4355,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "924db4c1-06e7-4d67-9cde-e85222faf93a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/db42fccf-785f-4e49-85b7-2f52735eccb5")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -4394,6 +4602,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "60efd462-0d7e-466b-8d04-175fc85581f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bdcf81f-f4d9-40c2-a641-91f41f549faf")
 			(effects
 				(font
 					(size 1 1)
@@ -4641,6 +4862,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9ecee3e-6a24-4e2f-ae95-32eaa377935a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/142986cd-0c44-4ff3-a129-d504feae338f")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -4878,6 +5112,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce6ada44-23e9-4767-ae64-6cf1c034a131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/76869870-b41d-4aba-bfb3-a14f1f65b1cb")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -5098,6 +5345,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f7aab55e-56fd-4f22-a87d-84207b970fd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c8d4296-4b8e-458d-98b1-f4193d375020")
 			(effects
 				(font
 					(size 1 1)
@@ -5332,6 +5592,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20ee3a3e-bc79-4c93-afa6-5361b2ba50fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e9949790-9380-4014-ad5c-fb55a40107e2")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -5552,6 +5825,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2183d3b5-0371-49b3-b230-78b684657b99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c03213ca-d94a-4098-893e-f6925db389ce")
 			(effects
 				(font
 					(size 1 1)
@@ -5830,6 +6116,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7e862b7-06b8-4e12-a573-28888a88aabc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/3cb8d01f-2b6f-4862-b4a3-65e58d4ce366")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -6070,6 +6369,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e4ca20e-b1c6-4e6f-80a7-efd3b5061aba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8972d9f2-9307-4725-9129-4b3b323d109f")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -6290,6 +6602,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6fadaa3-4449-485e-a7a2-00f0c4fd19d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48f6a468-b0dc-4781-8865-81448cb9a7db")
 			(effects
 				(font
 					(size 1 1)
@@ -6564,6 +6889,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f30f2ffe-1e85-49e4-b25d-b20d6bcf4ca6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ca736eff-0cbe-47f3-9a05-930829ad1630")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -6800,6 +7138,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bebe7a15-ee8d-4640-b40c-1e7a55bba21d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/df660afd-a960-4619-bb11-0d36fa918ced")
 		(sheetname "/")
@@ -6929,6 +7280,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8c6c72e-bfeb-4081-8ba3-4f9234570590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bd8c5d9-7294-4a16-8d72-6b4f39af5973")
 			(effects
 				(font
 					(size 1 1)
@@ -7156,6 +7520,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ff2e388-080d-4c19-8170-4fc9a75f5701")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "733f62f0-7407-48a6-859f-4361c2025e0e")
 			(effects
 				(font
 					(size 1 1)
@@ -7403,6 +7780,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a4d2f7a-1fa0-46fe-95c2-89d39d95dd9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/12754c9b-aa5d-4d2f-a73e-50c848e652a6")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -7631,6 +8021,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9668e9a3-011a-4e60-942c-b76a9781fe29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96a21b88-1c28-4028-b657-5323c02f70e3")
 			(effects
 				(font
 					(size 1 1)
@@ -7909,6 +8312,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "febd44c7-858a-418e-bf05-9203df0e1417")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8fb2f16a-cbc2-4af3-b293-dc23ed94876e")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -8143,6 +8559,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ddaf1604-e98a-4a52-a100-28188a90eb90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8107c5b0-f429-4515-ba69-04e16ef92f79")
 			(effects
 				(font
 					(size 1 1)
@@ -8421,6 +8850,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "327a8051-1d8b-494f-9247-7c8d2f79200d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/60178ec3-66f9-40b3-a275-d0516159e0c8")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -8641,6 +9083,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "445476d8-0d17-4361-8135-1b09f7ec0043")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a43dc518-0362-4f6b-bef6-01dc42b1e0dc")
 			(effects
 				(font
 					(size 1 1)
@@ -8919,6 +9374,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b09cef32-fed9-46b6-b2fb-f795cd2a1afe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c0016c42-8c66-4c74-9599-9fab439c73d6")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -9183,6 +9651,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c7f0e965-b82d-4333-a2d0-f2aa840ed632")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a0da275-4ada-4037-8a88-878012577981")
 			(effects
 				(font
 					(size 1 1)
@@ -9474,6 +9955,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19d06ce9-e847-4c14-92d8-57ee67c12b5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f40e9faf-a314-4488-bc15-3e45a32c4726")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -9738,6 +10232,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "06068670-87de-400b-b6ea-4d9d2bce0512")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6200fb1-1333-450b-97cb-a9759ad0fea8")
 			(effects
 				(font
 					(size 1 1)
@@ -10022,6 +10529,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2334f43-b5df-43af-b355-5d4bf70ab78b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5cbf041-6edf-4f86-97cc-32994856d2ee")
 			(effects
 				(font
 					(size 1 1)
@@ -10602,6 +11122,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c03bdd5d-cda5-4d9c-9223-35c37aa3a789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b1f09e6-8c8c-4b4a-808c-13525b48da53")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -10822,6 +11355,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69133540-968e-429a-85ab-08afa80b6506")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3bc1094-ccfc-4200-8ec4-4ab0f8795fb1")
 			(effects
 				(font
 					(size 1 1)
@@ -11065,6 +11611,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91eda06e-2d61-4678-9d1d-3a1b66d941d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4e3896ec-83ae-44aa-8fef-9ed6e12bf5a6")
 		(sheetname "/")
@@ -11194,6 +11753,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "21e641bb-3791-4292-915b-92ae809f7df6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a9f029f-17d2-4a7e-a516-55fbd68413ed")
 			(effects
 				(font
 					(size 1 1)
@@ -11485,6 +12057,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a52eee1-816d-4af3-aa61-30034400e46b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/98f66242-eff1-42b5-9f2e-21b6306f67ec")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -11689,6 +12274,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ca97b13-7a57-4f09-85a6-64582e68bc1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6533002-cd0c-43a0-b9ab-ef85de5eaa0b")
 			(effects
 				(font
 					(size 1 1)
@@ -12017,6 +12615,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d8314d7-a149-4db7-bc0d-23f1c23bc665")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/cce9ed7f-5052-458e-ac38-ba8e34c7d2be")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -12292,6 +12903,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78c659de-d504-4932-b453-db0eee9b7f0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9439247b-7791-4a36-a8e9-9e7a27f35263")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -12504,6 +13128,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "264481fa-56e5-41e8-8e95-e4b7de5a7b3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c6abf9d4-7b62-412a-abb7-88e4267f4a4c")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -12695,6 +13332,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c8d6059d-1b0c-4fc7-8427-c5a125077a6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bee8ceaf-32aa-469f-af6c-b71e9c0a0568")
 			(effects
 				(font
 					(size 1 1)
@@ -12936,6 +13586,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef091519-828d-4128-a8fa-2b67cef31a22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9989e46-d890-461d-a883-5c71f5492a6b")
 			(effects
 				(font
 					(size 1 1)
@@ -13214,6 +13877,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "704da27a-9de5-4bfe-8d0d-3b9d9c93c7d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9bc11e25-65b1-41c2-b2b2-d9735a71d162")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -13478,6 +14154,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d51cfe13-b303-45c7-bcc1-d2a0013ceeab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d74db54d-787b-4029-aa32-576cfd176813")
 			(effects
 				(font
 					(size 1 1)
@@ -13756,6 +14445,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4b605a1-8471-4614-ad26-bb7194e62bcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f214615c-3c03-4b9f-89a2-acf744966987")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -13976,6 +14678,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "79c55c7e-4011-4209-bae7-6311fb57cc08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d074d402-a9eb-495b-9f22-89004a5cb958")
 			(effects
 				(font
 					(size 1 1)
@@ -14254,6 +14969,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33241491-fb41-4313-8012-4f006feb2a71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bfa7b5b0-3417-4e5e-9c00-721b605d7b5f")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -14494,6 +15222,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "688c03a0-4dd2-4cf3-a419-c5d23afbce40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a38bc59b-c3ab-4f58-9b86-e14466fb2698")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -14714,6 +15455,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "95166802-bf82-46ee-9465-7f4f70159e2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8a8b26b-59f6-448e-8906-fb49014265f0")
 			(effects
 				(font
 					(size 1 1)
@@ -14992,6 +15746,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c68c03da-3ef2-4196-a2f9-9c10b6e1a6cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0d918c03-e6bb-46b2-a9ac-d443f18cb741")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -15212,6 +15979,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "188152fc-75c7-4336-a8f2-d1365fd90047")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af8341fc-1c0b-4124-918d-3ae2aed2869a")
 			(effects
 				(font
 					(size 1 1)
@@ -15490,6 +16270,19 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5efd65cf-db6b-46f3-a8ac-c28512feed32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/3b4c6576-4e6d-4bcd-90d1-6c554ff7ecde")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -15723,6 +16516,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "939a39d6-7ac6-4009-9f2b-7c33ceab846b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e90333b3-8627-40e1-9255-8f979523be5e")
 			(effects
 				(font
 					(size 1 1)
@@ -15970,6 +16776,19 @@
 				)
 			)
 		)
+		(property "MPN" "RL0603FR-070R025L"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "632793a7-1fff-42ec-889c-6e56e4c46419")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2dff94c0-50af-462f-a4cf-c4dcaec888ec")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -16190,6 +17009,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ef0f660-7809-4a1b-b7f9-1808fcb5372c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcc4dd67-98f4-4f28-afd6-12cc9fec51c3")
 			(effects
 				(font
 					(size 1 1)
@@ -16467,6 +17299,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fddf9f42-30ea-4228-ad94-91069cdcad57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4f76df25-d898-4dd2-af42-281e519b98c8")
 			(effects
 				(font
 					(size 1 1)
@@ -16760,6 +17606,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0b4d83e7-3371-4a04-b443-5ca0cc586617")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1276308d-d935-49d9-bf1a-1df91cad7945")
 			(effects
 				(font
 					(size 1 1)
@@ -17119,6 +17979,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ccffaf2-ae5a-4294-becd-7c4d5213c235")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/bbc27bb0-186e-4bae-aaa5-8ad9c7e112a1")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -17412,6 +18286,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df607c82-580d-4259-961e-bee77d57848b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/59067437-5cfe-47c7-b81b-286e7664cd59")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -17677,6 +18565,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "036ac3e7-fac6-48f0-993b-14a0fabf6e3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/a35dc19a-c080-40dc-a387-449aecf676da")
 		(sheetname "/")
@@ -17778,6 +18680,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "72b37b60-6478-413e-ab8c-44ebe5b7aff6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -17932,6 +18848,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ad3f1a6b-3e89-454b-9c6c-32d23b82723b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3e06d788-59de-48f1-a441-e94907910b04")
 			(effects
 				(font
 					(size 1 1)
@@ -18371,6 +19301,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1627ce1e-33fe-4a32-9594-57ba520c6c8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/2c05be00-113f-4743-a943-387752c798b0")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -18539,6 +19483,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a8c07889-a330-4d73-8375-f98f3ae40a15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/becf0d8c-7f1d-439d-8084-8b5db6e09b48")
 		(sheetname "/")
@@ -18640,6 +19598,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4e7df150-f6c8-4a8a-a4f6-d514a8be9b19")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -18751,6 +19723,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "643bc726-9db1-4ab4-b486-e378e6a10449")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b45f55d8-1a83-48cd-8486-ef7e6e19f9d3")
 		(sheetname "/")
@@ -18852,6 +19838,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d5ddd48-56c4-45b9-8c27-744cede9a6f1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -19007,6 +20007,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "186179bd-ba17-4131-a677-c15abb57c5ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8e2e94d2-b1a9-410f-8f89-1a226ca8e8d0")
 			(effects
 				(font
 					(size 1 1)
@@ -19364,6 +20378,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "96672eef-ed9a-43a8-8bdb-462232eade06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/31898c9b-c439-415a-8c8e-cc239af4ca1e")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -19677,6 +20705,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68b3734c-abe4-4045-b01f-f176ec5d7863")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/45a91be8-5eb2-4ed8-8c1f-d1a3da91aecb")
 		(sheetname "/")
@@ -19812,6 +20854,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2856fc21-36b0-493c-9b78-56b62bfd0649")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "47579ea6-1e6f-4755-ac66-b4cdbbc02bd7")
 			(effects
 				(font
 					(size 1 1)
@@ -20017,6 +21073,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f74b0e80-fcf6-4e11-a16f-6b1064def1d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/13602fe1-0de7-4d60-be35-8c8ce479efd4")
 		(sheetname "/")
@@ -20167,6 +21237,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "524be530-3007-4748-a3d7-b823e46096ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eeadac78-d6e2-49ab-86ed-6218f37a59a8")
 			(effects
 				(font
 					(size 1 1)
@@ -20622,6 +21706,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9a640bb7-7594-4e6d-8984-4ad123f2ea59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/edbbc66c-d761-4277-abde-19c148add727")
 		(sheetname "/")
 		(sheetfile "Pocket 2.66.kicad_sch")
@@ -20867,6 +21965,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2c050ece-4830-45c6-a512-0ba17476038d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d7394751-cb36-40ba-b978-40cf596f71db")
 			(effects
 				(font
 					(size 1 1)
@@ -21160,6 +22272,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "23269b24-c3a9-42dc-94ca-a06557ee2c12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dad2f811-11fb-40aa-8014-4b2c4a091986")
 			(effects
 				(font
 					(size 1 1)
@@ -31959,7 +33085,7 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour allowed)
+			(copperpour not_allowed)
 			(footprints allowed)
 		)
 		(placement
@@ -31973,8 +33099,8 @@
 		)
 		(polygon
 			(pts
-				(xy 113.245316 75.35) (xy 110.75 75.35) (xy 110.25 75.25) (xy 110.275 76.2) (xy 110.55 76.2) (xy 110.75 75.6)
-				(xy 113.239115 75.60753)
+				(xy 113.245316 75.35) (xy 110.75 75.35) (xy 110.25 75.25) (xy 110.275 76.2) (xy 110.55 76.2) (xy 110.73 75.72)
+				(xy 113.1 75.72)
 			)
 		)
 	)
@@ -32865,7 +33991,7 @@
 				(xy 100.674237 74.55929) (xy 100.712949 74.753902) (xy 100.71295 74.753906) (xy 100.712951 74.753909)
 				(xy 100.712954 74.753919) (xy 100.712956 74.753923) (xy 100.712959 74.753934) (xy 100.778568 74.912328)
 				(xy 100.778572 74.912335) (xy 100.87384 75.054915) (xy 100.995083 75.176158) (xy 100.995086 75.17616)
-				(xy 101.137667 75.271429) (xy 101.13767 75.27143) (xy 101.137673 75.271432) (xy 101.181799 75.289709)
+				(xy 101.137667 75.271429) (xy 101.13767 75.27143) (xy 101.137673 75.271432) (xy 101.188076 75.292309)
 				(xy 101.290475 75.334723) (xy 101.294883 75.336808) (xy 101.464257 75.3705) (xy 101.635739 75.3705)
 				(xy 101.63574 75.3705) (xy 101.651902 75.367284) (xy 101.748881 75.347993) (xy 101.803915 75.337047)
 				(xy 101.962336 75.271427) (xy 102.00658 75.241863) (xy 102.038413 75.226633) (xy 102.038904 75.226478)
@@ -32939,65 +34065,59 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 112.889362 74.995233) (xy 112.944278 75.038428) (xy 112.944318 75.038483) (xy 112.944675 75.038985)
-				(xy 112.958625 75.079375) (xy 112.963025 75.078194) (xy 112.963755 75.080913) (xy 112.966595 75.102447)
-				(xy 112.967486 75.105026) (xy 112.967129 75.106493) (xy 112.967996 75.113066) (xy 112.967996 75.146634)
-				(xy 113.55817 75.146634) (xy 113.593106 75.151657) (xy 113.608104 75.156061) (xy 113.666855 75.193806)
-				(xy 113.668042 75.195175) (xy 113.695518 75.250036) (xy 113.697163 75.257594) (xy 113.7 75.283965)
-				(xy 113.7 75.296634) (xy 113.70817 75.296634) (xy 113.743106 75.301657) (xy 113.758104 75.306061)
-				(xy 113.816855 75.343806) (xy 113.818042 75.345175) (xy 113.845518 75.400036) (xy 113.847163 75.407594)
-				(xy 113.85 75.433965) (xy 113.85 75.999872) (xy 113.865071 76.014943) (xy 113.886223 76.043199)
-				(xy 113.893715 76.05692) (xy 113.908567 76.12518) (xy 113.908438 76.126986) (xy 113.889067 76.185193)
-				(xy 113.884885 76.1917) (xy 113.868252 76.212339) (xy 113.849891 76.2307) (xy 113.821644 76.251847)
-				(xy 113.798558 76.264455) (xy 113.739124 76.279627) (xy 113.256121 76.279627) (xy 113.220982 76.286615)
-				(xy 113.220978 76.286617) (xy 113.220973 76.286621) (xy 113.18112 76.313251) (xy 113.15449 76.353104)
-				(xy 113.154486 76.353109) (xy 113.154484 76.353113) (xy 113.147496 76.388251) (xy 113.147496 76.800766)
-				(xy 113.142472 76.835703) (xy 113.13506 76.860944) (xy 113.103765 76.913688) (xy 112.299229 77.718224)
-				(xy 112.270975 77.739375) (xy 112.258368 77.746259) (xy 112.190095 77.761111) (xy 112.156584 77.748612)
-				(xy 112.150835 77.78863) (xy 112.150829 77.788644) (xy 112.147642 77.795622) (xy 112.12253 77.831788)
-				(xy 112.093301 77.861017) (xy 112.06505 77.882166) (xy 112.041962 77.894774) (xy 111.982532 77.909944)
-				(xy 110.674942 77.909944) (xy 110.674942 79.059943) (xy 111.819728 79.059943) (xy 111.819733 79.059943)
-				(xy 111.819733 79.059942) (xy 111.81975 79.059941) (xy 111.81975 79.05994) (xy 111.819766 79.05994)
-				(xy 111.840864 79.057492) (xy 111.844811 79.057035) (xy 111.844815 79.057034) (xy 111.947416 79.011732)
-				(xy 111.947421 79.011729) (xy 112.026727 78.932423) (xy 112.02673 78.932418) (xy 112.072031 78.829821)
-				(xy 112.072031 78.829819) (xy 112.072601 78.827116) (xy 112.072857 78.822699) (xy 112.074216 78.810985)
-				(xy 112.074941 78.804738) (xy 112.074941 78.568588) (xy 112.079962 78.53366) (xy 112.083873 78.520339)
-				(xy 112.121645 78.461563) (xy 112.185199 78.432537) (xy 112.193622 78.431326) (xy 112.24336 78.434289)
-				(xy 112.303856 78.4505) (xy 112.303858 78.4505) (xy 112.396142 78.4505) (xy 112.396144 78.4505)
-				(xy 112.485288 78.426614) (xy 112.565212 78.380469) (xy 112.630469 78.315212) (xy 112.630472 78.315206)
-				(xy 112.630475 78.315203) (xy 112.676611 78.235293) (xy 112.67661 78.235293) (xy 112.676614 78.235288)
-				(xy 112.7005 78.146144) (xy 112.7005 78.146135) (xy 112.701561 78.138084) (xy 112.702375 78.138191)
-				(xy 112.705522 78.116303) (xy 112.712934 78.091058) (xy 112.744228 78.038316) (xy 113.406516 77.376028)
-				(xy 113.434766 77.35488) (xy 113.457858 77.342272) (xy 113.517283 77.327105) (xy 113.875368 77.327105)
-				(xy 113.9103 77.332126) (xy 113.935544 77.339539) (xy 113.98829 77.370835) (xy 114.78527 78.167815)
-				(xy 114.792741 78.175984) (xy 114.803957 78.189406) (xy 114.803957 78.189407) (xy 114.812635 78.199792)
-				(xy 114.840517 78.263856) (xy 114.829337 78.332825) (xy 114.782672 78.384784) (xy 114.780685 78.386012)
-				(xy 114.715496 78.404531) (xy 114.088125 78.404531) (xy 114.052986 78.411519) (xy 114.052982 78.411521)
-				(xy 114.052977 78.411525) (xy 114.013124 78.438155) (xy 113.986494 78.478008) (xy 113.98649 78.478013)
-				(xy 113.986488 78.478017) (xy 113.9795 78.513155) (xy 113.9795 79.075113) (xy 113.974475 79.110055)
-				(xy 113.970637 79.123123) (xy 113.932859 79.181899) (xy 113.869301 79.21092) (xy 113.807295 79.203972)
-				(xy 113.799583 79.201017) (xy 113.775059 79.188328) (xy 113.772021 79.186298) (xy 113.736881 79.179309)
-				(xy 113.73688 79.179309) (xy 112.463118 79.179309) (xy 112.427979 79.186297) (xy 112.427975 79.186299)
-				(xy 112.42797 79.186303) (xy 112.388117 79.212933) (xy 112.361487 79.252786) (xy 112.361483 79.252791)
-				(xy 112.361481 79.252795) (xy 112.354493 79.287933) (xy 112.354493 79.611683) (xy 112.362671 79.652803)
-				(xy 112.362468 79.652843) (xy 112.365387 79.667177) (xy 112.368518 79.696294) (xy 112.361303 79.746501)
-				(xy 112.363251 79.747093) (xy 112.361482 79.75292) (xy 112.354493 79.788062) (xy 112.354493 80.111814)
-				(xy 112.362671 80.152927) (xy 112.36245 80.15297) (xy 112.365326 80.167103) (xy 112.368465 80.196293)
-				(xy 112.361272 80.246362) (xy 112.363251 80.246963) (xy 112.361483 80.252788) (xy 112.354493 80.287934)
-				(xy 112.354493 80.587606) (xy 112.349468 80.62255) (xy 112.345063 80.637548) (xy 112.30732 80.696291)
-				(xy 112.305951 80.697478) (xy 112.25109 80.724954) (xy 112.243532 80.726599) (xy 112.217161 80.729436)
-				(xy 109.906203 80.729436) (xy 109.8754 80.742194) (xy 109.825171 80.762997) (xy 109.825157 80.763007)
-				(xy 107.557592 83.030573) (xy 107.529341 83.051722) (xy 107.506253 83.06433) (xy 107.446823 83.0795)
-				(xy 106.701707 83.0795) (xy 106.666768 83.074476) (xy 106.65345 83.070565) (xy 106.594673 83.032789)
-				(xy 106.565651 82.969232) (xy 106.56565 82.969226) (xy 106.564966 82.964466) (xy 106.574269 82.896745)
-				(xy 106.617092 82.79976) (xy 106.617092 82.799758) (xy 106.617092 82.799749) (xy 106.617663 82.797052)
-				(xy 106.617918 82.792644) (xy 106.619676 82.777485) (xy 106.620003 82.775131) (xy 106.620003 82.629883)
-				(xy 105.44183 82.629883) (xy 105.406889 82.624858) (xy 105.39189 82.620453) (xy 105.333144 82.58271)
-				(xy 105.331957 82.581341) (xy 105.304477 82.526466) (xy 105.302832 82.518904) (xy 105.3 82.492551)
-				(xy 105.3 82.479883) (xy 105.29183 82.479883) (xy 105.256889 82.474858) (xy 105.24189 82.470453)
-				(xy 105.183144 82.43271) (xy 105.181957 82.431341) (xy 105.154477 82.376466) (xy 105.152832 82.368904)
-				(xy 105.15 82.342551) (xy 105.15 82.329883) (xy 105.45 82.329883) (xy 105.9 82.329883) (xy 106.2 82.329883)
-				(xy 106.620002 82.329883) (xy 106.620002 82.185097) (xy 106.62 82.185074) (xy 106.617094 82.160013)
+				(xy 113.743106 75.301657) (xy 113.758104 75.306061) (xy 113.816855 75.343806) (xy 113.818042 75.345175)
+				(xy 113.845518 75.400036) (xy 113.847163 75.407594) (xy 113.85 75.433965) (xy 113.85 75.999872)
+				(xy 113.865071 76.014943) (xy 113.886223 76.043199) (xy 113.893715 76.05692) (xy 113.908567 76.12518)
+				(xy 113.908438 76.126986) (xy 113.889067 76.185193) (xy 113.884885 76.1917) (xy 113.868252 76.212339)
+				(xy 113.849891 76.2307) (xy 113.821644 76.251847) (xy 113.798558 76.264455) (xy 113.739124 76.279627)
+				(xy 113.256121 76.279627) (xy 113.220982 76.286615) (xy 113.220978 76.286617) (xy 113.220973 76.286621)
+				(xy 113.18112 76.313251) (xy 113.15449 76.353104) (xy 113.154486 76.353109) (xy 113.154484 76.353113)
+				(xy 113.147496 76.388251) (xy 113.147496 76.800766) (xy 113.142472 76.835703) (xy 113.13506 76.860944)
+				(xy 113.103765 76.913688) (xy 112.299229 77.718224) (xy 112.270975 77.739375) (xy 112.258368 77.746259)
+				(xy 112.190095 77.761111) (xy 112.156584 77.748612) (xy 112.150835 77.78863) (xy 112.150829 77.788644)
+				(xy 112.147642 77.795622) (xy 112.12253 77.831788) (xy 112.093301 77.861017) (xy 112.06505 77.882166)
+				(xy 112.041962 77.894774) (xy 111.982532 77.909944) (xy 110.674942 77.909944) (xy 110.674942 79.059943)
+				(xy 111.819728 79.059943) (xy 111.819733 79.059943) (xy 111.819733 79.059942) (xy 111.81975 79.059941)
+				(xy 111.81975 79.05994) (xy 111.819766 79.05994) (xy 111.840864 79.057492) (xy 111.844811 79.057035)
+				(xy 111.844815 79.057034) (xy 111.947416 79.011732) (xy 111.947421 79.011729) (xy 112.026727 78.932423)
+				(xy 112.02673 78.932418) (xy 112.072031 78.829821) (xy 112.072031 78.829819) (xy 112.072601 78.827116)
+				(xy 112.072857 78.822699) (xy 112.074216 78.810985) (xy 112.074941 78.804738) (xy 112.074941 78.568588)
+				(xy 112.079962 78.53366) (xy 112.083873 78.520339) (xy 112.121645 78.461563) (xy 112.185199 78.432537)
+				(xy 112.193622 78.431326) (xy 112.24336 78.434289) (xy 112.303856 78.4505) (xy 112.303858 78.4505)
+				(xy 112.396142 78.4505) (xy 112.396144 78.4505) (xy 112.485288 78.426614) (xy 112.565212 78.380469)
+				(xy 112.630469 78.315212) (xy 112.630472 78.315206) (xy 112.630475 78.315203) (xy 112.676611 78.235293)
+				(xy 112.67661 78.235293) (xy 112.676614 78.235288) (xy 112.7005 78.146144) (xy 112.7005 78.146135)
+				(xy 112.701561 78.138084) (xy 112.702375 78.138191) (xy 112.705522 78.116303) (xy 112.712934 78.091058)
+				(xy 112.744228 78.038316) (xy 113.406516 77.376028) (xy 113.434766 77.35488) (xy 113.457858 77.342272)
+				(xy 113.517283 77.327105) (xy 113.875368 77.327105) (xy 113.9103 77.332126) (xy 113.935544 77.339539)
+				(xy 113.98829 77.370835) (xy 114.78527 78.167815) (xy 114.792741 78.175984) (xy 114.803957 78.189406)
+				(xy 114.803957 78.189407) (xy 114.812635 78.199792) (xy 114.840517 78.263856) (xy 114.829337 78.332825)
+				(xy 114.782672 78.384784) (xy 114.780685 78.386012) (xy 114.715496 78.404531) (xy 114.088125 78.404531)
+				(xy 114.052986 78.411519) (xy 114.052982 78.411521) (xy 114.052977 78.411525) (xy 114.013124 78.438155)
+				(xy 113.986494 78.478008) (xy 113.98649 78.478013) (xy 113.986488 78.478017) (xy 113.9795 78.513155)
+				(xy 113.9795 79.075113) (xy 113.974475 79.110055) (xy 113.970637 79.123123) (xy 113.932859 79.181899)
+				(xy 113.869301 79.21092) (xy 113.807295 79.203972) (xy 113.799583 79.201017) (xy 113.775059 79.188328)
+				(xy 113.772021 79.186298) (xy 113.736881 79.179309) (xy 113.73688 79.179309) (xy 112.463118 79.179309)
+				(xy 112.427979 79.186297) (xy 112.427975 79.186299) (xy 112.42797 79.186303) (xy 112.388117 79.212933)
+				(xy 112.361487 79.252786) (xy 112.361483 79.252791) (xy 112.361481 79.252795) (xy 112.354493 79.287933)
+				(xy 112.354493 79.611683) (xy 112.362671 79.652803) (xy 112.362468 79.652843) (xy 112.365387 79.667177)
+				(xy 112.368518 79.696294) (xy 112.361303 79.746501) (xy 112.363251 79.747093) (xy 112.361482 79.75292)
+				(xy 112.354493 79.788062) (xy 112.354493 80.111814) (xy 112.362671 80.152927) (xy 112.36245 80.15297)
+				(xy 112.365326 80.167103) (xy 112.368465 80.196293) (xy 112.361272 80.246362) (xy 112.363251 80.246963)
+				(xy 112.361483 80.252788) (xy 112.354493 80.287934) (xy 112.354493 80.587606) (xy 112.349468 80.62255)
+				(xy 112.345063 80.637548) (xy 112.30732 80.696291) (xy 112.305951 80.697478) (xy 112.25109 80.724954)
+				(xy 112.243532 80.726599) (xy 112.217161 80.729436) (xy 109.906203 80.729436) (xy 109.8754 80.742194)
+				(xy 109.825171 80.762997) (xy 109.825157 80.763007) (xy 107.557592 83.030573) (xy 107.529341 83.051722)
+				(xy 107.506253 83.06433) (xy 107.446823 83.0795) (xy 106.701707 83.0795) (xy 106.666768 83.074476)
+				(xy 106.65345 83.070565) (xy 106.594673 83.032789) (xy 106.565651 82.969232) (xy 106.56565 82.969226)
+				(xy 106.564966 82.964466) (xy 106.574269 82.896745) (xy 106.617092 82.79976) (xy 106.617092 82.799758)
+				(xy 106.617092 82.799749) (xy 106.617663 82.797052) (xy 106.617918 82.792644) (xy 106.619676 82.777485)
+				(xy 106.620003 82.775131) (xy 106.620003 82.629883) (xy 105.44183 82.629883) (xy 105.406889 82.624858)
+				(xy 105.39189 82.620453) (xy 105.333144 82.58271) (xy 105.331957 82.581341) (xy 105.304477 82.526466)
+				(xy 105.302832 82.518904) (xy 105.3 82.492551) (xy 105.3 82.479883) (xy 105.29183 82.479883) (xy 105.256889 82.474858)
+				(xy 105.24189 82.470453) (xy 105.183144 82.43271) (xy 105.181957 82.431341) (xy 105.154477 82.376466)
+				(xy 105.152832 82.368904) (xy 105.15 82.342551) (xy 105.15 82.329883) (xy 105.45 82.329883) (xy 105.9 82.329883)
+				(xy 106.2 82.329883) (xy 106.620002 82.329883) (xy 106.620002 82.185097) (xy 106.62 82.185074) (xy 106.617094 82.160013)
 				(xy 106.617093 82.160009) (xy 106.571791 82.057408) (xy 106.571791 82.057407) (xy 106.571786 82.0574)
 				(xy 106.492484 81.978098) (xy 106.492478 81.978094) (xy 106.389879 81.932793) (xy 106.364798 81.929883)
 				(xy 106.364797 81.929883) (xy 106.2 81.929883) (xy 106.2 82.329883) (xy 105.9 82.329883) (xy 105.9 81.929883)
@@ -33138,22 +34258,13 @@
 				(xy 110.93256 76.459944) (xy 110.897621 76.45492) (xy 110.884303 76.451009) (xy 110.825526 76.413233)
 				(xy 110.796504 76.349676) (xy 110.796503 76.349674) (xy 110.795818 76.344905) (xy 110.805122 76.277189)
 				(xy 110.825588 76.230838) (xy 110.825588 76.230836) (xy 110.825588 76.230827) (xy 110.826158 76.228129)
-				(xy 110.826414 76.223716) (xy 110.827734 76.212339) (xy 110.828498 76.205755) (xy 110.828498 75.744678)
-				(xy 112.967997 75.744678) (xy 112.970904 75.769745) (xy 113.016206 75.872345) (xy 113.016206 75.872347)
+				(xy 110.826414 76.223716) (xy 110.827734 76.212339) (xy 110.828498 76.205755) (xy 110.828498 75.844)
+				(xy 110.848183 75.776961) (xy 110.900987 75.731206) (xy 110.952498 75.72) (xy 112.868141 75.72)
+				(xy 112.93518 75.739685) (xy 112.980935 75.792489) (xy 112.981576 75.793914) (xy 113.016207 75.872348)
 				(xy 113.016211 75.872354) (xy 113.095513 75.951656) (xy 113.095516 75.951658) (xy 113.095521 75.951661)
 				(xy 113.198119 75.996962) (xy 113.223202 75.999872) (xy 113.549999 75.999872) (xy 113.55 75.999871)
-				(xy 113.55 75.446634) (xy 112.967997 75.446634) (xy 112.967997 75.744678) (xy 110.828498 75.744678)
-				(xy 110.828498 75.452326) (xy 110.83352 75.417394) (xy 110.837924 75.402394) (xy 110.875669 75.343644)
-				(xy 110.877038 75.342457) (xy 110.931919 75.314976) (xy 110.936258 75.314032) (xy 110.939481 75.313332)
-				(xy 110.96583 75.3105) (xy 111.490096 75.3105) (xy 111.525027 75.315521) (xy 111.556842 75.324863)
-				(xy 111.573625 75.33271) (xy 111.573814 75.332257) (xy 111.585096 75.33693) (xy 111.585097 75.336931)
-				(xy 111.66614 75.3705) (xy 111.666142 75.3705) (xy 112.293858 75.3705) (xy 112.29386 75.3705) (xy 112.374903 75.336931)
-				(xy 112.422131 75.289701) (xy 112.447803 75.270002) (xy 112.475118 75.254232) (xy 112.505025 75.241845)
-				(xy 112.545952 75.23088) (xy 112.545952 75.230879) (xy 112.545953 75.230879) (xy 112.545955 75.230879)
-				(xy 112.545956 75.230877) (xy 112.556459 75.228064) (xy 112.567305 75.218551) (xy 112.622672 75.186584)
-				(xy 112.628175 75.183624) (xy 112.6313 75.181603) (xy 112.656373 75.167126) (xy 112.676492 75.134118)
-				(xy 112.691133 75.119478) (xy 112.727697 75.056146) (xy 112.749509 75.02841) (xy 112.757708 75.020593)
-				(xy 112.81981 74.988586)
+				(xy 113.55 75.446634) (xy 113.55 75.420634) (xy 113.569685 75.353595) (xy 113.622489 75.30784) (xy 113.674 75.296634)
+				(xy 113.7 75.296634) (xy 113.70817 75.296634)
 			)
 		)
 		(filled_polygon
@@ -33194,49 +34305,50 @@
 				(xy 117.973421 76.818496) (xy 117.970589 76.792143) (xy 117.970589 75.788279) (xy 117.970497 75.787538)
 				(xy 117.969999 75.785314) (xy 117.96598 75.765105) (xy 117.965379 75.759005) (xy 117.96537 75.758975)
 				(xy 117.964179 75.754223) (xy 117.960725 75.74776) (xy 117.960706 75.747725) (xy 117.956815 75.742984)
-				(xy 117.936965 75.713276) (xy 117.897106 75.686643) (xy 117.897105 75.686642) (xy 117.897104 75.686642)
-				(xy 117.897103 75.686641) (xy 117.895478 75.686317) (xy 117.893457 75.685079) (xy 117.885133 75.68426)
-				(xy 117.861963 75.679652) (xy 117.861959 75.679652) (xy 117.238219 75.679652) (xy 117.238214 75.679652)
-				(xy 117.203075 75.68664) (xy 117.203071 75.686642) (xy 117.203066 75.686646) (xy 117.163213 75.713276)
-				(xy 117.136583 75.753129) (xy 117.136579 75.753134) (xy 117.136577 75.753138) (xy 117.129589 75.788276)
-				(xy 117.129589 76.10767) (xy 117.124564 76.142614) (xy 117.120159 76.157612) (xy 117.082416 76.216355)
-				(xy 117.081047 76.217542) (xy 117.026186 76.245018) (xy 117.018628 76.246663) (xy 116.992257 76.2495)
-				(xy 116.953856 76.2495) (xy 116.871466 76.271575) (xy 116.871451 76.27158) (xy 116.864712 76.273386)
-				(xy 116.864711 76.273386) (xy 116.864709 76.273387) (xy 116.864706 76.273388) (xy 116.861906 76.275004)
-				(xy 116.861902 76.275006) (xy 116.784804 76.319519) (xy 116.784786 76.319531) (xy 116.719531 76.384786)
-				(xy 116.719519 76.384804) (xy 116.675006 76.461902) (xy 116.675004 76.461906) (xy 116.673388 76.464706)
-				(xy 116.673387 76.464709) (xy 116.673386 76.464711) (xy 116.673386 76.464712) (xy 116.67158 76.471451)
-				(xy 116.671575 76.471466) (xy 116.661744 76.508159) (xy 116.6495 76.553856) (xy 116.6495 76.646144)
-				(xy 116.667992 76.715158) (xy 116.66948 76.72071) (xy 116.67321 76.734632) (xy 116.673387 76.73529)
-				(xy 116.673388 76.735293) (xy 116.690657 76.765204) (xy 116.719519 76.815194) (xy 116.719531 76.815212)
-				(xy 116.769843 76.865524) (xy 116.782317 76.880095) (xy 116.798485 76.902244) (xy 116.822112 76.967998)
-				(xy 116.806439 77.036087) (xy 116.806437 77.03609) (xy 116.79968 77.048117) (xy 116.779256 77.075061)
-				(xy 116.719529 77.134789) (xy 116.719519 77.134804) (xy 116.675005 77.211903) (xy 116.675002 77.211909)
-				(xy 116.673388 77.214706) (xy 116.673387 77.214709) (xy 116.673386 77.214711) (xy 116.673386 77.214712)
-				(xy 116.671579 77.221455) (xy 116.671574 77.22147) (xy 116.668789 77.231868) (xy 116.668788 77.231872)
-				(xy 116.6495 77.303856) (xy 116.6495 77.396142) (xy 116.673384 77.485282) (xy 116.673387 77.48529)
-				(xy 116.673388 77.485293) (xy 116.719526 77.565205) (xy 116.719529 77.565209) (xy 116.719531 77.565212)
-				(xy 116.784788 77.630469) (xy 116.784791 77.63047) (xy 116.784794 77.630473) (xy 116.79102 77.634067)
-				(xy 116.791684 77.63473) (xy 116.793036 77.635566) (xy 116.795651 77.636741) (xy 116.864706 77.676611)
-				(xy 116.864707 77.676611) (xy 116.864712 77.676614) (xy 116.953856 77.7005) (xy 116.953857 77.7005)
-				(xy 116.961706 77.702603) (xy 116.961686 77.702676) (xy 116.966052 77.703598) (xy 116.987595 77.709924)
-				(xy 116.987605 77.709927) (xy 117.046365 77.747683) (xy 117.049197 77.75095) (xy 117.078234 77.8145)
-				(xy 117.0795 77.832171) (xy 117.0795 77.861848) (xy 117.086489 77.896989) (xy 117.08649 77.89699)
-				(xy 117.08649 77.896991) (xy 117.086491 77.896992) (xy 117.093252 77.90711) (xy 117.113124 77.936851)
-				(xy 117.121437 77.942406) (xy 117.166242 77.996019) (xy 117.175575 78.030028) (xy 117.175921 78.032783)
-				(xy 117.17594 78.032929) (xy 117.165682 78.099969) (xy 117.164918 78.10164) (xy 117.124951 78.150455)
-				(xy 117.118831 78.154894) (xy 117.096114 78.167951) (xy 117.027523 78.198237) (xy 117.027521 78.198238)
-				(xy 117.027517 78.19824) (xy 116.948216 78.277541) (xy 116.948214 78.277545) (xy 116.948211 78.27755)
-				(xy 116.946922 78.280469) (xy 116.902909 78.380146) (xy 116.902339 78.382852) (xy 116.902084 78.387267)
-				(xy 116.9 78.405225) (xy 116.9 78.40523) (xy 116.9 78.700025) (xy 117.50817 78.700025) (xy 117.543106 78.705048)
-				(xy 117.558104 78.709452) (xy 117.616855 78.747197) (xy 117.618042 78.748566) (xy 117.645518 78.803427)
-				(xy 117.647163 78.810985) (xy 117.65 78.837356) (xy 117.65 78.850025) (xy 117.65817 78.850025) (xy 117.693106 78.855048)
-				(xy 117.708104 78.859452) (xy 117.766855 78.897197) (xy 117.768042 78.898566) (xy 117.795518 78.953427)
-				(xy 117.797163 78.960985) (xy 117.8 78.987356) (xy 117.8 79.297534) (xy 117.801073 79.298607) (xy 117.822225 79.326863)
-				(xy 117.829717 79.340584) (xy 117.844569 79.408847) (xy 117.843923 79.417888) (xy 117.828087 79.470243)
-				(xy 117.741244 79.623298) (xy 117.741005 79.623162) (xy 117.71646 79.667076) (xy 117.654808 79.699952)
-				(xy 117.585169 79.694278) (xy 117.529653 79.651855) (xy 117.520821 79.637963) (xy 117.515164 79.627602)
-				(xy 117.5 79.568181) (xy 117.5 79.000025) (xy 116.900001 79.000025) (xy 116.900001 79.212663) (xy 116.894976 79.247607)
+				(xy 117.954611 75.739685) (xy 117.936965 75.713276) (xy 117.897106 75.686643) (xy 117.897105 75.686642)
+				(xy 117.897104 75.686642) (xy 117.897103 75.686641) (xy 117.895478 75.686317) (xy 117.893457 75.685079)
+				(xy 117.885133 75.68426) (xy 117.861963 75.679652) (xy 117.861959 75.679652) (xy 117.238219 75.679652)
+				(xy 117.238214 75.679652) (xy 117.203075 75.68664) (xy 117.203071 75.686642) (xy 117.203066 75.686646)
+				(xy 117.163213 75.713276) (xy 117.136583 75.753129) (xy 117.136579 75.753134) (xy 117.136577 75.753138)
+				(xy 117.129589 75.788276) (xy 117.129589 76.10767) (xy 117.124564 76.142614) (xy 117.120159 76.157612)
+				(xy 117.082416 76.216355) (xy 117.081047 76.217542) (xy 117.026186 76.245018) (xy 117.018628 76.246663)
+				(xy 116.992257 76.2495) (xy 116.953856 76.2495) (xy 116.871466 76.271575) (xy 116.871451 76.27158)
+				(xy 116.864712 76.273386) (xy 116.864711 76.273386) (xy 116.864709 76.273387) (xy 116.864706 76.273388)
+				(xy 116.861906 76.275004) (xy 116.861902 76.275006) (xy 116.784804 76.319519) (xy 116.784786 76.319531)
+				(xy 116.719531 76.384786) (xy 116.719519 76.384804) (xy 116.675006 76.461902) (xy 116.675004 76.461906)
+				(xy 116.673388 76.464706) (xy 116.673387 76.464709) (xy 116.673386 76.464711) (xy 116.673386 76.464712)
+				(xy 116.67158 76.471451) (xy 116.671575 76.471466) (xy 116.661744 76.508159) (xy 116.6495 76.553856)
+				(xy 116.6495 76.646144) (xy 116.667992 76.715158) (xy 116.66948 76.72071) (xy 116.67321 76.734632)
+				(xy 116.673387 76.73529) (xy 116.673388 76.735293) (xy 116.690657 76.765204) (xy 116.719519 76.815194)
+				(xy 116.719531 76.815212) (xy 116.769843 76.865524) (xy 116.782317 76.880095) (xy 116.798485 76.902244)
+				(xy 116.822112 76.967998) (xy 116.806439 77.036087) (xy 116.806437 77.03609) (xy 116.79968 77.048117)
+				(xy 116.779256 77.075061) (xy 116.719529 77.134789) (xy 116.719519 77.134804) (xy 116.675005 77.211903)
+				(xy 116.675002 77.211909) (xy 116.673388 77.214706) (xy 116.673387 77.214709) (xy 116.673386 77.214711)
+				(xy 116.673386 77.214712) (xy 116.671579 77.221455) (xy 116.671574 77.22147) (xy 116.668789 77.231868)
+				(xy 116.668788 77.231872) (xy 116.6495 77.303856) (xy 116.6495 77.396142) (xy 116.673384 77.485282)
+				(xy 116.673387 77.48529) (xy 116.673388 77.485293) (xy 116.719526 77.565205) (xy 116.719529 77.565209)
+				(xy 116.719531 77.565212) (xy 116.784788 77.630469) (xy 116.784791 77.63047) (xy 116.784794 77.630473)
+				(xy 116.79102 77.634067) (xy 116.791684 77.63473) (xy 116.793036 77.635566) (xy 116.795651 77.636741)
+				(xy 116.864706 77.676611) (xy 116.864707 77.676611) (xy 116.864712 77.676614) (xy 116.953856 77.7005)
+				(xy 116.953857 77.7005) (xy 116.961706 77.702603) (xy 116.961686 77.702676) (xy 116.966052 77.703598)
+				(xy 116.987595 77.709924) (xy 116.987605 77.709927) (xy 117.046365 77.747683) (xy 117.049197 77.75095)
+				(xy 117.078234 77.8145) (xy 117.0795 77.832171) (xy 117.0795 77.861848) (xy 117.086489 77.896989)
+				(xy 117.08649 77.89699) (xy 117.08649 77.896991) (xy 117.086491 77.896992) (xy 117.093252 77.90711)
+				(xy 117.113124 77.936851) (xy 117.121437 77.942406) (xy 117.166242 77.996019) (xy 117.175575 78.030028)
+				(xy 117.175921 78.032783) (xy 117.17594 78.032929) (xy 117.165682 78.099969) (xy 117.164918 78.10164)
+				(xy 117.124951 78.150455) (xy 117.118831 78.154894) (xy 117.096114 78.167951) (xy 117.027523 78.198237)
+				(xy 117.027521 78.198238) (xy 117.027517 78.19824) (xy 116.948216 78.277541) (xy 116.948214 78.277545)
+				(xy 116.948211 78.27755) (xy 116.946922 78.280469) (xy 116.902909 78.380146) (xy 116.902339 78.382852)
+				(xy 116.902084 78.387267) (xy 116.9 78.405225) (xy 116.9 78.40523) (xy 116.9 78.700025) (xy 117.50817 78.700025)
+				(xy 117.543106 78.705048) (xy 117.558104 78.709452) (xy 117.616855 78.747197) (xy 117.618042 78.748566)
+				(xy 117.645518 78.803427) (xy 117.647163 78.810985) (xy 117.65 78.837356) (xy 117.65 78.850025)
+				(xy 117.65817 78.850025) (xy 117.693106 78.855048) (xy 117.708104 78.859452) (xy 117.766855 78.897197)
+				(xy 117.768042 78.898566) (xy 117.795518 78.953427) (xy 117.797163 78.960985) (xy 117.8 78.987356)
+				(xy 117.8 79.297534) (xy 117.801073 79.298607) (xy 117.822225 79.326863) (xy 117.829717 79.340584)
+				(xy 117.844569 79.408847) (xy 117.843923 79.417888) (xy 117.828087 79.470243) (xy 117.741244 79.623298)
+				(xy 117.741005 79.623162) (xy 117.71646 79.667076) (xy 117.654808 79.699952) (xy 117.585169 79.694278)
+				(xy 117.529653 79.651855) (xy 117.520821 79.637963) (xy 117.515164 79.627602) (xy 117.5 79.568181)
+				(xy 117.5 79.000025) (xy 116.900001 79.000025) (xy 116.900001 79.212663) (xy 116.894976 79.247607)
 				(xy 116.890571 79.262605) (xy 116.852828 79.321348) (xy 116.851459 79.322535) (xy 116.796598 79.350011)
 				(xy 116.78904 79.351656) (xy 116.762669 79.354493) (xy 116.088125 79.354493) (xy 116.052986 79.361481)
 				(xy 116.052982 79.361483) (xy 116.052977 79.361487) (xy 116.013124 79.388117) (xy 115.986494 79.42797)
@@ -33313,28 +34425,28 @@
 				(xy 116.063861 76.844955) (xy 116.065783 76.835294) (xy 116.06889 76.819667) (xy 116.069614 76.816934)
 				(xy 116.070411 76.812024) (xy 116.070411 75.788279) (xy 116.070319 75.787538) (xy 116.069821 75.785314)
 				(xy 116.065802 75.765105) (xy 116.065201 75.759005) (xy 116.065192 75.758975) (xy 116.064001 75.754223)
-				(xy 116.060547 75.74776) (xy 116.060528 75.747725) (xy 116.056637 75.742984) (xy 116.036787 75.713276)
-				(xy 115.996928 75.686643) (xy 115.996927 75.686642) (xy 115.996926 75.686642) (xy 115.996925 75.686641)
-				(xy 115.9953 75.686317) (xy 115.993279 75.685079) (xy 115.984955 75.68426) (xy 115.961785 75.679652)
-				(xy 115.961781 75.679652) (xy 115.338041 75.679652) (xy 115.338036 75.679652) (xy 115.302897 75.68664)
-				(xy 115.302893 75.686642) (xy 115.302888 75.686646) (xy 115.263035 75.713276) (xy 115.236405 75.753129)
-				(xy 115.236401 75.753134) (xy 115.236399 75.753138) (xy 115.229411 75.788276) (xy 114.740501 75.788276)
-				(xy 114.740501 75.762107) (xy 114.7405 75.762104) (xy 114.7405 74.434587) (xy 114.745522 74.399654)
-				(xy 114.747479 74.392989) (xy 114.749433 74.386335) (xy 114.787206 74.327558) (xy 114.850758 74.298533)
-				(xy 114.855955 74.297786) (xy 114.921045 74.305963) (xy 114.956134 74.320498) (xy 114.956139 74.3205)
-				(xy 114.95614 74.3205) (xy 115.087835 74.3205) (xy 115.122771 74.325523) (xy 115.137769 74.329927)
-				(xy 115.19652 74.367672) (xy 115.197707 74.369041) (xy 115.225183 74.423902) (xy 115.226828 74.43146)
-				(xy 115.229665 74.457831) (xy 115.229665 74.611874) (xy 115.234273 74.635043) (xy 115.234274 74.635047)
-				(xy 115.236893 74.648219) (xy 115.23798 74.650517) (xy 115.24344 74.65717) (xy 115.263289 74.686876)
-				(xy 115.303148 74.713509) (xy 115.303149 74.71351) (xy 115.31512 74.715891) (xy 115.315121 74.715891)
-				(xy 115.335327 74.71991) (xy 115.337551 74.720408) (xy 115.338292 74.7205) (xy 115.338294 74.7205)
-				(xy 115.929543 74.7205) (xy 115.964479 74.725523) (xy 115.984977 74.731542) (xy 116.036422 74.761557)
-				(xy 116.070091 74.794249) (xy 116.071391 74.79553) (xy 116.127644 74.851783) (xy 116.127648 74.851786)
-				(xy 116.127652 74.851788) (xy 116.23025 74.897089) (xy 116.255333 74.899999) (xy 116.450126 74.899999)
-				(xy 116.450127 74.899998) (xy 116.450127 74.241829) (xy 116.45515 74.206893) (xy 116.455648 74.205199)
-				(xy 116.459554 74.191894) (xy 116.497299 74.133144) (xy 116.498668 74.131957) (xy 116.553547 74.104477)
-				(xy 116.554274 74.104319) (xy 116.555168 74.104124) (xy 116.561106 74.102833) (xy 116.587459 74.1)
-				(xy 116.608297 74.1)
+				(xy 116.060547 75.74776) (xy 116.060528 75.747725) (xy 116.056637 75.742984) (xy 116.054433 75.739685)
+				(xy 116.036787 75.713276) (xy 115.996928 75.686643) (xy 115.996927 75.686642) (xy 115.996926 75.686642)
+				(xy 115.996925 75.686641) (xy 115.9953 75.686317) (xy 115.993279 75.685079) (xy 115.984955 75.68426)
+				(xy 115.961785 75.679652) (xy 115.961781 75.679652) (xy 115.338041 75.679652) (xy 115.338036 75.679652)
+				(xy 115.302897 75.68664) (xy 115.302893 75.686642) (xy 115.302888 75.686646) (xy 115.263035 75.713276)
+				(xy 115.236405 75.753129) (xy 115.236401 75.753134) (xy 115.236399 75.753138) (xy 115.229411 75.788276)
+				(xy 114.740501 75.788276) (xy 114.740501 75.762107) (xy 114.7405 75.762104) (xy 114.7405 74.434587)
+				(xy 114.745522 74.399654) (xy 114.747479 74.392989) (xy 114.749433 74.386335) (xy 114.787206 74.327558)
+				(xy 114.850758 74.298533) (xy 114.855955 74.297786) (xy 114.921045 74.305963) (xy 114.956134 74.320498)
+				(xy 114.956139 74.3205) (xy 114.95614 74.3205) (xy 115.087835 74.3205) (xy 115.122771 74.325523)
+				(xy 115.137769 74.329927) (xy 115.19652 74.367672) (xy 115.197707 74.369041) (xy 115.225183 74.423902)
+				(xy 115.226828 74.43146) (xy 115.229665 74.457831) (xy 115.229665 74.611874) (xy 115.234273 74.635043)
+				(xy 115.234274 74.635047) (xy 115.236893 74.648219) (xy 115.23798 74.650517) (xy 115.24344 74.65717)
+				(xy 115.263289 74.686876) (xy 115.303148 74.713509) (xy 115.303149 74.71351) (xy 115.31512 74.715891)
+				(xy 115.315121 74.715891) (xy 115.335327 74.71991) (xy 115.337551 74.720408) (xy 115.338292 74.7205)
+				(xy 115.338294 74.7205) (xy 115.929543 74.7205) (xy 115.964479 74.725523) (xy 115.984977 74.731542)
+				(xy 116.036422 74.761557) (xy 116.070091 74.794249) (xy 116.071391 74.79553) (xy 116.127644 74.851783)
+				(xy 116.127648 74.851786) (xy 116.127652 74.851788) (xy 116.23025 74.897089) (xy 116.255333 74.899999)
+				(xy 116.450126 74.899999) (xy 116.450127 74.899998) (xy 116.450127 74.241829) (xy 116.45515 74.206893)
+				(xy 116.455648 74.205199) (xy 116.459554 74.191894) (xy 116.497299 74.133144) (xy 116.498668 74.131957)
+				(xy 116.553547 74.104477) (xy 116.554274 74.104319) (xy 116.555168 74.104124) (xy 116.561106 74.102833)
+				(xy 116.587459 74.1) (xy 116.608297 74.1)
 			)
 		)
 		(filled_polygon

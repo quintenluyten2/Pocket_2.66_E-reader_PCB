@@ -10,7 +10,7 @@ A compact e-reader PCB built around a 2.66" e-ink display and the ESP32-C3FH4 mi
 - **Storage:** micro-SD card slot
 - **Connectivity:** On-board SMD 2.4 GHz antenna (Unictron H2U38D1E1B0100)
 - **Protection:** USB ESD protection (SRV05-4)
-- **Form factor:** 2-layer SMD, min trace 0.12 mm, designed for JLCPCB
+- **Form factor:** 4-layer 1 mm PCB, min trace 0.12 mm, designed for JLCPCB
 
 ## Repository contents
 
