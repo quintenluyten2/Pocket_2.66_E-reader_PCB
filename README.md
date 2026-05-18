@@ -1,6 +1,6 @@
 # Pocket 2.66 — E-reader PCB
 
-A compact e-reader PCB built around a 2.66" e-ink display and the ESP32-C3FH4 microcontroller.
+A compact e-reader PCB built around a 2.13"/2.66" e-ink display and the ESP32-C3FH4 microcontroller.
 
 <p align="center">
   <img src="documentation/Front.png" alt="PCB Front" width="48%"/>
@@ -10,12 +10,11 @@ A compact e-reader PCB built around a 2.66" e-ink display and the ESP32-C3FH4 mi
 ## Features
 
 - **MCU:** ESP32-C3FH4 (RISC-V, 2.4 GHz Wi-Fi + BLE, 4 MB flash)
-- **Display:** 2.66" e-ink, connected via 24-pin FPC
+- **Display:** 2.13"/2.66" e-ink, connected via 24-pin FPC
 - **Power:** USB-C input, single-cell Li-Po with GX4054 charger and BQ27220 fuel gauge
 - **Storage:** micro-SD card slot
-- **Connectivity:** On-board SMD 2.4 GHz antenna (Unictron H2U38D1E1B0100)
-- **Protection:** USB ESD protection (SRV05-4)
-- **Form factor:** 4-layer 1 mm PCB, min trace 0.12 mm, designed for JLCPCB
+- **Connectivity:** On-board SMD 2.4 GHz antenna (Not yet matched to 35 Ohm)
+- **Form factor:** 4-layer 1 mm PCB, min trace 0.12 mm, min via 0.3/0.4 mm (designed for JLCPCB)
 
 ## Repository contents
 
@@ -24,21 +23,25 @@ A compact e-reader PCB built around a 2.66" e-ink display and the ESP32-C3FH4 mi
 ├── Pocket 2.66.kicad_pcb       PCB layout
 ├── Pocket 2.66.kicad_pro       KiCad project file
 ├── Pocket 2.66.kicad_dru       Design rules
-├── libs/lcsc/
-│   ├── symbols/                Component symbols (individual + lcsc_imported)
-│   ├── footprints.pretty/      Component footprints
-│   └── 3dmodels/               3D models (.step / .wrl)
+├── libs/lcsc/.                 Component Library
 ├── documentation/
-│   ├── Pocket 2.66 BOM with MPN.csv   Full BOM with manufacturer and MPN
-│   ├── Pocket 2.66 Interactive.html   Interactive BOM (ibom)
-│   ├── PCB.stl                        PCB 3D export
+│   ├── Pocket 2.66 BOM with MPN.csv   Schematic BOM
+│   ├── Pocket 2.66 Interactive.html   Interactive PCB BOM
+│   ├── PCB.stl
 │   └── V0_schematic_review.pdf
 └── production/
     ├── Pocket_2.66.zip         Gerber + drill files for fabrication
-    ├── bom.csv                 JLCPCB BOM
-    ├── positions.csv           JLCPCB pick-and-place
+    ├── bom.csv                 JLCPCB BOM (for PCBA)
+    ├── positions.csv           JLCPCB pick-and-place (for PCBA)
     └── netlist.ipc
 ```
+
+## Additional parts
+To make an E-reader, you need this PCB fully assembled, and:
+- **Display** 24-pin 2.13"/2.66" Black/White E-ink display (e.g. Waveshare)
+- **Battery** 803450 1500 mAh battery for 2.66" version or 802540 800 mAh battery for 2.13" version. Use 1.25 mm 2P Picoblade connector
+- **Housing** 3D printing files coming soon
+
 
 ## Key components
 
@@ -64,4 +67,4 @@ A compact e-reader PCB built around a 2.66" e-ink display and the ESP32-C3FH4 mi
 
 ## Production files
 
-Ready-to-order Gerber files are in `production/Pocket_2.66.zip`. The BOM and pick-and-place files are formatted for JLCPCB assembly.
+Ready-to-order Gerber files are in `production/Pocket_2.66.zip`. The BOM and pick-and-place files are formatted for JLCPCB PCBA.
