@@ -2,6 +2,11 @@
 
 A compact e-reader PCB built around a 2.66" e-ink display and the ESP32-C3FH4 microcontroller.
 
+<p align="center">
+  <img src="documentation/Front.png" alt="PCB Front" width="48%"/>
+  <img src="documentation/Back.png" alt="PCB Back" width="48%"/>
+</p>
+
 ## Features
 
 - **MCU:** ESP32-C3FH4 (RISC-V, 2.4 GHz Wi-Fi + BLE, 4 MB flash)
