@@ -174,6 +174,10 @@
           ""
         ],
         [
+          "copper_edge_clearance|121200000|72750000|c281ee67-a7ab-4a1c-b52a-4a1d040b8dc1|608a1a8c-734f-4653-9c6e-1cc56e3d6bb0",
+          ""
+        ],
+        [
           "copper_edge_clearance|121200000|73650000|82dc16be-f7ec-4f35-b5e5-3c06a3767a2a|318b6e6d-c1b5-40a1-beed-6cbd3e7ccff2",
           ""
         ],
@@ -327,6 +331,26 @@
         ],
         [
           "solder_mask_bridge|113121100|98421100|932a5d79-59cd-428b-82d6-4d66250153bb|5648781c-cfba-4e39-bccf-e22883709990",
+          ""
+        ],
+        [
+          "starved_thermal|101574416|80625121|97af0447-6ffc-45f4-8c83-08d3df0c63e6|d7e6a68f-d144-4dd6-911d-5fcef9d9c918|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|106522600|72949987|97af0447-6ffc-45f4-8c83-08d3df0c63e6|3ba15d9e-c4a4-49a4-9d4c-126bfa530754|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|106522600|79350038|97af0447-6ffc-45f4-8c83-08d3df0c63e6|d57dec1b-a580-4a56-95e5-3c9294aef646|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|106522600|79650013|97af0447-6ffc-45f4-8c83-08d3df0c63e6|8869edb2-ac27-4f9f-8a0f-34c48940c474|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|113279883|92500000|97af0447-6ffc-45f4-8c83-08d3df0c63e6|be06afc3-3f35-4847-b4d3-9fcd9260c6f3|F.Cu",
           ""
         ]
       ],
@@ -810,7 +834,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "documentation/Pocket 2.66 BOM with MPN.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -865,7 +889,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -877,7 +901,7 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -889,13 +913,31 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC Type",
+          "name": "JLC Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Type",
+          "name": "LCSC Type",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -946,7 +988,7 @@
         "uuid": "1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
       }
     ],
-    "used_designators": "TP3-9,U7",
+    "used_designators": "#PWR56,C23,TP3-9,U7",
     "variants": []
   },
   "sheets": [
