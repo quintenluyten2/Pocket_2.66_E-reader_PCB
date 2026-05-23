@@ -108,7 +108,7 @@
 		(symbol "4.7uF 0402 25V (Non-basic)_1_1"
 			(polyline
 				(pts
-					(xy -102.1082 76.2002) (xy -104.1402 76.2002)
+					(xy -0.5082 0.0002) (xy -2.5402 0.0002)
 				)
 				(stroke
 					(width 0)
@@ -120,7 +120,7 @@
 			)
 			(polyline
 				(pts
-					(xy -102.1082 74.1681) (xy -102.1082 78.2322)
+					(xy -0.5082 -2.0319) (xy -0.5082 2.0322)
 				)
 				(stroke
 					(width 0)
@@ -132,7 +132,7 @@
 			)
 			(polyline
 				(pts
-					(xy -101.0922 78.2322) (xy -101.0922 74.1681)
+					(xy 0.5078 2.0322) (xy 0.5078 -2.0319)
 				)
 				(stroke
 					(width 0)
@@ -144,7 +144,7 @@
 			)
 			(polyline
 				(pts
-					(xy -99.0602 76.2002) (xy -101.0922 76.2002)
+					(xy 2.5398 0.0002) (xy 0.5078 0.0002)
 				)
 				(stroke
 					(width 0)
@@ -155,7 +155,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -106.68 76.2 0)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -173,7 +173,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -96.52 76.2 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "2"
 					(effects

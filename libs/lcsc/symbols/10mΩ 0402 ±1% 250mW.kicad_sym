@@ -83,6 +83,17 @@
 				)
 			)
 		)
+		(property "MPN" "HoCS0402-1/4W-10mR-1%"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "10mΩ 0402 ±1% 250mW_1_1"
 			(rectangle
 				(start -2.54 1.27)
@@ -132,18 +143,6 @@
 				)
 			)
 		)
-		(property "MPN" "HoCS0402-1/4W-10mR-1%"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-
 		(embedded_fonts no)
 	)
 )

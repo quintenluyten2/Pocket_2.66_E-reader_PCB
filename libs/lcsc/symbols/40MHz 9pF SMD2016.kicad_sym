@@ -83,6 +83,17 @@
 				)
 			)
 		)
+		(property "MPN" "XL7EL89CLI-111YLC-40M"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "40MHz 9pF SMD2016_1_1"
 			(rectangle
 				(start -5.08 5.08)
@@ -238,18 +249,6 @@
 				)
 			)
 		)
-		(property "MPN" "XL7EL89CLI-111YLC-40M"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-
 		(embedded_fonts no)
 	)
 )

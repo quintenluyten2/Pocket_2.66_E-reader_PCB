@@ -83,6 +83,17 @@
 				)
 			)
 		)
+		(property "MPN" "KT-0603R"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "LED R 0603_1_1"
 			(polyline
 				(pts
@@ -193,18 +204,6 @@
 				)
 			)
 		)
-		(property "MPN" "KT-0603R"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-
 		(embedded_fonts no)
 	)
 )

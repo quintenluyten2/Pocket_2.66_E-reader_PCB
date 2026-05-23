@@ -83,6 +83,17 @@
 				)
 			)
 		)
+		(property "MPN" "SRV05-4-P-T7"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "ESD-USB_1_1"
 			(rectangle
 				(start -11.43 17.78)
@@ -794,18 +805,6 @@
 				)
 			)
 		)
-		(property "MPN" "SRV05-4-P-T7"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-
 		(embedded_fonts no)
 	)
 )

@@ -83,6 +83,17 @@
 				)
 			)
 		)
+		(property "MPN" "TS-24CA-S16"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "TS-24CA-S16_1_1"
 			(polyline
 				(pts
@@ -203,18 +214,6 @@
 				)
 			)
 		)
-		(property "MPN" "TS-24CA-S16"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-
 		(embedded_fonts no)
 	)
 )

@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.25,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -61,82 +77,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "clearance|111750002|99150000|5adbdcbc-5bb2-4a37-a144-97e11fe90470|dee0aa00-0f3c-4ccb-8057-d98195640720",
-          ""
-        ],
-        [
-          "clearance|112250000|99150000|5adbdcbc-5bb2-4a37-a144-97e11fe90470|c7641a0f-6c22-4f0e-91fc-8d0b8e832c2e",
-          ""
-        ],
-        [
-          "clearance|112750000|99150000|c7641a0f-6c22-4f0e-91fc-8d0b8e832c2e|d8b36147-b402-4ae9-8d66-0fbf0234cb86",
-          ""
-        ],
-        [
-          "clearance|113121100|98421100|5648781c-cfba-4e39-bccf-e22883709990|e856fefa-0d5d-44de-81b5-09fc3ab4edbc",
-          "Polygon [<no net>] of U2 is GND"
-        ],
-        [
-          "clearance|114600000|99450000|0363ee66-6202-453c-9e71-152105149844|c9303c3a-6e2c-40f9-a909-b6a1c1477f49",
-          ""
-        ],
-        [
-          "clearance|115100000|99450000|0363ee66-6202-453c-9e71-152105149844|332b7551-be2c-4dfa-b27b-977feb253143",
-          ""
-        ],
-        [
-          "clearance|115579851|86079998|2846ead7-c428-42aa-9cfe-1a8aea08c80b|81632033-6ae8-4084-a7a8-41a0450f9ff8",
-          ""
-        ],
-        [
-          "clearance|115600000|99450000|0840e2bd-4a27-47bf-a852-81243696d171|332b7551-be2c-4dfa-b27b-977feb253143",
-          ""
-        ],
-        [
-          "clearance|115920085|86620002|1f801166-faef-42c0-9772-4c0ecdbc10e3|2846ead7-c428-42aa-9cfe-1a8aea08c80b",
-          ""
-        ],
-        [
-          "clearance|116100000|99450000|0840e2bd-4a27-47bf-a852-81243696d171|c89bf572-8a8f-405e-b7e9-fccd2a1dd6f5",
-          ""
-        ],
-        [
-          "clearance|116300000|93150000|8074d82e-8ce4-4ba2-9763-6c03cdd0a212|8de4c9d4-7199-496a-b579-51ec4fd84129",
-          ""
-        ],
-        [
-          "clearance|116379883|98270002|4c3cb007-0c80-4c2f-b8c7-634a6f2e0a3f|a181a8f5-e79e-4e7d-ace3-34159000edfe",
-          "Local squeeze within DRC worst-case clearance of 0.1 mm"
-        ],
-        [
-          "clearance|116600000|99450000|7013c14d-bf49-4e04-b4f6-ea3ae15ddfd2|c89bf572-8a8f-405e-b7e9-fccd2a1dd6f5",
-          ""
-        ],
-        [
-          "clearance|116720117|98270002|4c3cb007-0c80-4c2f-b8c7-634a6f2e0a3f|a72faba6-38c2-4434-9d24-964250213e6b",
-          "Local squeeze within DRC worst-case clearance of 0.1 mm"
-        ],
-        [
-          "clearance|116800000|93150000|8de4c9d4-7199-496a-b579-51ec4fd84129|b296cc51-2ff9-475b-b171-0b616e04fffd",
-          ""
-        ],
-        [
-          "clearance|117100000|99450000|7013c14d-bf49-4e04-b4f6-ea3ae15ddfd2|df8ca611-7f44-4aa7-bb41-0cc2f6ba8176",
-          ""
-        ],
-        [
-          "clearance|117300000|93150000|b296cc51-2ff9-475b-b171-0b616e04fffd|da669088-e1bf-40ef-a061-93284980ea4f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|117600000|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|11c58217-5c3f-467a-8631-1918d555fe6b",
-          ""
-        ],
-        [
-          "copper_edge_clearance|117600000|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|c81aa465-a32a-44e1-817b-6c18acd02a8f",
-          ""
-        ],
         [
           "copper_edge_clearance|118600000|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|ca2cabef-5bc1-4993-8eea-37d31c3d0517",
           ""
@@ -178,23 +118,11 @@
           ""
         ],
         [
-          "copper_edge_clearance|121200000|73650000|82dc16be-f7ec-4f35-b5e5-3c06a3767a2a|318b6e6d-c1b5-40a1-beed-6cbd3e7ccff2",
-          ""
-        ],
-        [
           "copper_edge_clearance|121200000|73650000|82dc16be-f7ec-4f35-b5e5-3c06a3767a2a|d59fac01-b266-4368-ad0a-44f5c4ca7f36",
           ""
         ],
         [
           "copper_edge_clearance|121850064|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|4db4e599-df77-4c46-9701-094b4e0bf775",
-          ""
-        ],
-        [
-          "copper_edge_clearance|122450000|74700000|ae076cec-30ac-4df3-8341-850c38984cae|073dff1b-59d2-4def-9cb6-d91674831bc0",
-          ""
-        ],
-        [
-          "copper_edge_clearance|122450000|74700000|ae076cec-30ac-4df3-8341-850c38984cae|748b224a-01f1-47c8-9095-9dc4a86d28ae",
           ""
         ],
         [
@@ -259,98 +187,6 @@
         ],
         [
           "copper_edge_clearance|143949936|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|0582fb14-1231-48f6-b141-f3bdf3b2b3d3",
-          ""
-        ],
-        [
-          "hole_clearance|113850000|99600000|c9303c3a-6e2c-40f9-a909-b6a1c1477f49|de6da5b4-eacd-4ec7-914b-1df7f0cec459",
-          ""
-        ],
-        [
-          "shorting_items|103975000|98550000|a87c40ab-7047-4f10-a6d5-7be5c014cb88|d48be567-34cd-4fca-92e3-b377a7a6736b",
-          "Rectangle [<no net>] of ANT2 is ANT2-IN"
-        ],
-        [
-          "shorting_items|104775000|98579998|2f55769f-c5e8-4230-a5f0-880a000e3902|d48be567-34cd-4fca-92e3-b377a7a6736b",
-          "Rectangle [<no net>] of ANT2 is ANT2-IN"
-        ],
-        [
-          "shorting_items|104775000|98850000|673f0055-ef3d-4a79-a416-416a105714b9|d48be567-34cd-4fca-92e3-b377a7a6736b",
-          ""
-        ],
-        [
-          "shorting_items|109900000|97000000|5648781c-cfba-4e39-bccf-e22883709990|f0f1b6a1-7d8a-4de2-a9c6-1b2425ec2af0",
-          "Polygon [<no net>] of U2 is GND"
-        ],
-        [
-          "shorting_items|110150000|96900035|04858fd8-3936-4f41-a105-85299f638496|5648781c-cfba-4e39-bccf-e22883709990",
-          "Polygon [<no net>] of U2 is GND"
-        ],
-        [
-          "shorting_items|111050000|97850000|5648781c-cfba-4e39-bccf-e22883709990|cbd725bd-b40e-412c-ac07-0a82d78b7639",
-          "Polygon [<no net>] of U2 is GND"
-        ],
-        [
-          "shorting_items|113121100|98421100|5648781c-cfba-4e39-bccf-e22883709990|932a5d79-59cd-428b-82d6-4d66250153bb",
-          "Polygon [<no net>] of U2 is GND"
-        ],
-        [
-          "solder_mask_bridge|103975000|98550000|d48be567-34cd-4fca-92e3-b377a7a6736b|a87c40ab-7047-4f10-a6d5-7be5c014cb88",
-          ""
-        ],
-        [
-          "solder_mask_bridge|104775000|98579998|d48be567-34cd-4fca-92e3-b377a7a6736b|2f55769f-c5e8-4230-a5f0-880a000e3902",
-          ""
-        ],
-        [
-          "solder_mask_bridge|109750041|97850000|2a3726aa-af56-4e06-9c7d-0af6d9724926|04858fd8-3936-4f41-a105-85299f638496",
-          ""
-        ],
-        [
-          "solder_mask_bridge|109750041|97850000|2a3726aa-af56-4e06-9c7d-0af6d9724926|932a5d79-59cd-428b-82d6-4d66250153bb",
-          ""
-        ],
-        [
-          "solder_mask_bridge|109750041|97850000|2a3726aa-af56-4e06-9c7d-0af6d9724926|cbd725bd-b40e-412c-ac07-0a82d78b7639",
-          ""
-        ],
-        [
-          "solder_mask_bridge|109750041|97850000|2a3726aa-af56-4e06-9c7d-0af6d9724926|f0f1b6a1-7d8a-4de2-a9c6-1b2425ec2af0",
-          ""
-        ],
-        [
-          "solder_mask_bridge|109900000|97000000|f0f1b6a1-7d8a-4de2-a9c6-1b2425ec2af0|5648781c-cfba-4e39-bccf-e22883709990",
-          ""
-        ],
-        [
-          "solder_mask_bridge|110150000|96900035|04858fd8-3936-4f41-a105-85299f638496|5648781c-cfba-4e39-bccf-e22883709990",
-          ""
-        ],
-        [
-          "solder_mask_bridge|111050000|97850000|cbd725bd-b40e-412c-ac07-0a82d78b7639|5648781c-cfba-4e39-bccf-e22883709990",
-          ""
-        ],
-        [
-          "solder_mask_bridge|113121100|98421100|932a5d79-59cd-428b-82d6-4d66250153bb|5648781c-cfba-4e39-bccf-e22883709990",
-          ""
-        ],
-        [
-          "starved_thermal|101574416|80625121|97af0447-6ffc-45f4-8c83-08d3df0c63e6|d7e6a68f-d144-4dd6-911d-5fcef9d9c918|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|106522600|72949987|97af0447-6ffc-45f4-8c83-08d3df0c63e6|3ba15d9e-c4a4-49a4-9d4c-126bfa530754|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|106522600|79350038|97af0447-6ffc-45f4-8c83-08d3df0c63e6|d57dec1b-a580-4a56-95e5-3c9294aef646|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|106522600|79650013|97af0447-6ffc-45f4-8c83-08d3df0c63e6|8869edb2-ac27-4f9f-8a0f-34c48940c474|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|113279883|92500000|97af0447-6ffc-45f4-8c83-08d3df0c63e6|be06afc3-3f35-4847-b4d3-9fcd9260c6f3|F.Cu",
           ""
         ]
       ],
@@ -925,7 +761,7 @@
           "group_by": false,
           "label": "JLC Type",
           "name": "JLC Type",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -937,7 +773,7 @@
           "group_by": false,
           "label": "LCSC Type",
           "name": "LCSC Type",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
@@ -988,7 +824,7 @@
         "uuid": "1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-3,D5,U2,Q1-2,C7-8,C10,C12,C14-15,R1,R3-4,R6-7,R11-15,R24",
     "variants": []
   },
   "sheets": [

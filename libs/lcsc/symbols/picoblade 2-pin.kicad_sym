@@ -83,6 +83,17 @@
 				)
 			)
 		)
+		(property "MPN" "HX-1.25-2AWB"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "picoblade 2-pin_1_1"
 			(rectangle
 				(start -5.08 5.08)
@@ -179,18 +190,6 @@
 				)
 			)
 		)
-		(property "MPN" "HX-1.25-2AWB"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-
 		(embedded_fonts no)
 	)
 )

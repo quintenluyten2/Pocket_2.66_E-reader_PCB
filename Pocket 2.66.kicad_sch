@@ -458,186 +458,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LCSC Global:1uF 0402 25V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1uF (105) ±10% 25V"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LCSC:C0402"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1uF (105) ±10% 25V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C52923"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CL05A105KA5NQNC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1uF 0402 25V_1_1"
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LCSC Global:2.2Ω 0402 ±1%"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1401,7 +1221,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LCSC Global:4.7uF 0402 10V"
+		(symbol "LCSC Global:4.7uF 0402 25V (Non-basic)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1417,7 +1237,7 @@
 					)
 				)
 			)
-			(property "Value" "4.7uF (475) ±20% 10V"
+			(property "Value" "4.7uF 0402 25V (Non-basic)"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1438,7 +1258,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
+			(property "Datasheet" ""
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1449,7 +1269,7 @@
 					)
 				)
 			)
-			(property "Description" "4.7uF (475) ±20% 10V"
+			(property "Description" "CGA0402X5R475M250GT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1460,7 +1280,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C23733"
+			(property "LCSC" "C6119795"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1471,7 +1291,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
+			(property "Manufacturer" "HRE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1482,7 +1302,7 @@
 					)
 				)
 			)
-			(property "MPN" "CL05A475MP5NRNC"
+			(property "MPN" "CGA0402X5R475M250GT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1493,10 +1313,21 @@
 					)
 				)
 			)
-			(symbol "4.7uF 0402 10V_1_1"
+			(property "JLC Type" "Extended"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4.7uF 0402 25V (Non-basic)_1_1"
 				(polyline
 					(pts
-						(xy -0.508 0) (xy -2.54 0)
+						(xy -0.5082 0.0002) (xy -2.5402 0.0002)
 					)
 					(stroke
 						(width 0)
@@ -1508,7 +1339,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
+						(xy -0.5082 -2.0319) (xy -0.5082 2.0322)
 					)
 					(stroke
 						(width 0)
@@ -1520,7 +1351,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
+						(xy 0.5078 2.0322) (xy 0.5078 -2.0319)
 					)
 					(stroke
 						(width 0)
@@ -1532,7 +1363,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 0.508 0)
+						(xy 2.5398 0.0002) (xy 0.5078 0.0002)
 					)
 					(stroke
 						(width 0)
@@ -1581,13 +1412,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LCSC Global:4.7uF 0805 25V"
+		(symbol "LCSC Global:47kΩ 0402 ±1%"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
+			(property "Reference" "R"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1597,7 +1428,7 @@
 					)
 				)
 			)
-			(property "Value" "4.7uF (475) ±10% 25V"
+			(property "Value" "47kΩ 0402 ±1%"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1607,7 +1438,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LCSC:C1779_C0805"
+			(property "Footprint" "LCSC:R0402"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1618,18 +1449,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4.7uF (475) ±10% 25V"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1640,7 +1460,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C1779"
+			(property "Description" "FRC0402F4702TS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1651,7 +1471,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
+			(property "LCSC" "C2906872"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1662,7 +1482,7 @@
 					)
 				)
 			)
-			(property "MPN" "CL21A475KAQNNNE"
+			(property "Manufacturer" "FOJAN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1673,57 +1493,42 @@
 					)
 				)
 			)
-			(symbol "4.7uF 0805 25V_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "MPN" "FRC0402F4702TS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.508 2.032) (xy -0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			)
+			(property "JLC Type" "Extended"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 1.27 0)
-					)
+			)
+			(symbol "47kΩ 0402 ±1%_1_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin input line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1741,7 +1546,7 @@
 					)
 				)
 				(pin input line
-					(at 3.81 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -5877,6 +5682,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LCSC Global:SD103AWS-L SOD-323"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SD103AWS-L SOD-323"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SD103AWS-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C41376466"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "PIELENST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SD103AWS-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Type" "Extended"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SD103AWS-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SD103AWS-L SOD-323_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 2.032) (xy -1.778 2.032) (xy -1.778 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -2.032) (xy -0.762 -2.032) (xy -0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.524) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LCSC Global:STC3115AIQT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6154,185 +6149,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LCSC Global:Schottky SOD-323"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Schottky SOD-323"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409300937_Guangdong-Hottech-1N5819WS_C191023.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1N5819WS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C191023"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Guangdong Hottech"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "1N5819WS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "1N5819WS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Schottky SOD-323_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 2.032) (xy -1.778 2.032) (xy -1.778 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -2.032) (xy -0.762 -2.032) (xy -0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.524) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1 1)
@@ -7884,12 +7700,6 @@
 		(uuid "814f08ef-25a0-4372-9055-9473b0248c3a")
 	)
 	(junction
-		(at 39.37 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "822879ac-5b61-4d31-ac9e-651a26dc2676")
-	)
-	(junction
 		(at 160.02 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8074,6 +7884,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3e49a2f-6f3d-4d19-8b6e-0a8f06251918")
+	)
+	(junction
+		(at 39.37 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5d4948f-2548-49dc-9ca2-0c46933b0c8b")
 	)
 	(junction
 		(at 160.02 40.64)
@@ -9405,16 +9221,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 153.67) (xy 256.54 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c8fafdd-2c89-42d1-a474-abb7a3c82d65")
-	)
-	(wire
-		(pts
 			(xy 24.13 74.93) (xy 19.05 74.93)
 		)
 		(stroke
@@ -9535,7 +9341,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 163.83) (xy 256.54 161.29)
+			(xy 256.54 163.83) (xy 256.54 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9805,16 +9611,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 156.21) (xy 57.15 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a28732-1366-406e-bef1-39c117a11890")
-	)
-	(wire
-		(pts
 			(xy 151.13 137.16) (xy 153.67 137.16)
 		)
 		(stroke
@@ -10002,6 +9798,16 @@
 			(type default)
 		)
 		(uuid "94de490c-ada9-4d80-b8a9-246c9ffd5bcb")
+	)
+	(wire
+		(pts
+			(xy 39.37 156.21) (xy 57.15 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9631396d-767f-4e0c-a831-ffc2adf55f65")
 	)
 	(wire
 		(pts
@@ -11145,6 +10951,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 152.4) (xy 256.54 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0c1da7-2d45-4e41-9056-bd85e36b753b")
+	)
+	(wire
+		(pts
 			(xy 274.32 27.94) (xy 274.32 29.21)
 		)
 		(stroke
@@ -12074,8 +11890,8 @@
 		(uuid "fed8e3a4-248d-4002-81cc-98b787fb7fec")
 	)
 	(symbol
-		(lib_id "LCSC Global:4.7uF 0402 10V")
-		(at 133.35 180.34 90)
+		(lib_id "LCSC Global:47kΩ 0402 ±1%")
+		(at 36.83 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12083,31 +11899,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "02bdee2b-3798-4c13-83e1-e7c8d47aeb48")
-		(property "Reference" "C21"
-			(at 134.62 178.308 90)
+		(uuid "02f01862-a9e4-47ff-81fc-626f37c0eafa")
+		(property "Reference" "R13"
+			(at 37.084 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "4.7uF 10V"
-			(at 135.128 183.642 90)
+		(property "Value" "47kΩ"
+			(at 36.83 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LCSC:C0402"
-			(at 143.51 180.34 0)
+		(property "Footprint" "LCSC:R0402"
+			(at 36.83 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12117,8 +11931,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
-			(at 133.223 182.626 0)
+		(property "Datasheet" ""
+			(at 36.83 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12128,8 +11942,8 @@
 				)
 			)
 		)
-		(property "Description" "4.7uF (475) ±20% 10V"
-			(at 133.35 180.34 0)
+		(property "Description" "FRC0402F4702TS"
+			(at 36.83 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12139,8 +11953,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C23733"
-			(at 133.35 180.34 0)
+		(property "LCSC" "C2906872"
+			(at 36.83 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12150,8 +11964,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 133.35 180.34 0)
+		(property "Manufacturer" "FOJAN"
+			(at 36.83 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12161,8 +11975,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
-			(at 133.35 180.34 0)
+		(property "MPN" "FRC0402F4702TS"
+			(at 36.83 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12172,8 +11986,8 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
-			(at 133.35 180.34 90)
+		(property "JLC Type" "Extended"
+			(at 36.83 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12183,16 +11997,27 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "48976729-33b1-4a4d-b5ae-f46290855d8f")
+		(property "LCSC Type" ""
+			(at 36.83 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "c2ee3695-5574-47b2-a742-fd3b8e9d1a0f")
+			(uuid "035822df-d318-4494-8c75-4618eb1038ca")
+		)
+		(pin "2"
+			(uuid "f79e283f-9747-4e0e-8d87-f4bd9cf0e596")
 		)
 		(instances
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C21")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12356,6 +12181,142 @@
 		)
 	)
 	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 250.19 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05be8ab2-7a42-4917-897a-33376397e019")
+		(property "Reference" "C9"
+			(at 252.73 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 251.968 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 260.35 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.063 94.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 250.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 250.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 250.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 250.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 250.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 250.19 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30b25d53-44d4-40f6-8e30-1ba5fdc433d4")
+		)
+		(pin "2"
+			(uuid "23a07a3b-cb4c-43c6-8542-cd4017e922d8")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 64.77 33.02 270)
 		(unit 1)
@@ -12508,131 +12469,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:4.7uF 0402 10V")
-		(at 163.83 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0914ea85-20ce-4d6c-93d1-bb0504b01df2")
-		(property "Reference" "C23"
-			(at 165.1 136.398 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uF 10V"
-			(at 164.846 141.478 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C0402"
-			(at 173.99 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
-			(at 163.703 140.716 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7uF (475) ±20% 10V"
-			(at 163.83 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23733"
-			(at 163.83 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 163.83 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A475MP5NRNC"
-			(at 163.83 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 163.83 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "75bda26d-832f-4bca-ac32-07690e123a54")
-		)
-		(pin "1"
-			(uuid "4c3f13f2-eac6-4a52-9f1c-e85855be4799")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -12826,6 +12662,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 73.66 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1d77ec50-8d21-4901-afeb-e474e05eec19")
 		)
@@ -12836,252 +12683,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 252.73 120.65 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d918c03-e6bb-46b2-a9ac-d443f18cb741")
-		(property "Reference" "R2"
-			(at 248.412 121.666 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 252.73 122.682 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:R0402"
-			(at 252.73 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 255.016 120.777 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 252.73 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 252.73 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 252.73 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 252.73 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 252.73 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "854b228c-5b67-44cb-abdc-daf23eb9ab5a")
-		)
-		(pin "1"
-			(uuid "d19cf7b1-4ecd-437e-829e-ce00fe6e824f")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 157.48 140.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ec4b989-384e-4de2-b021-efcb75bbf1f4")
-		(property "Reference" "R19"
-			(at 155.448 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 159.512 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:R0402"
-			(at 147.32 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 157.607 138.684 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 157.48 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 157.48 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 157.48 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 157.48 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 157.48 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d638f88f-b34b-4568-b23e-7a65cfe4d411")
-		)
-		(pin "1"
-			(uuid "933203ad-9e7d-4f6c-ad55-b6a9b8639fa6")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13163,6 +12764,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 120.65 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52a41e6c-c536-4b9f-953e-e2f67c557580")
 		)
@@ -13170,132 +12782,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 274.32 34.29 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "112cd5bc-514f-4b56-accc-01ffd4e4750b")
-		(property "Reference" "R23"
-			(at 276.86 33.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 276.86 35.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:R0402"
-			(at 284.48 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 274.193 36.576 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 274.32 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 274.32 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 274.32 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 274.32 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 274.32 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0f695e15-aa0e-46d2-be18-e451e0568b7c")
-		)
-		(pin "1"
-			(uuid "c5e7d621-3d3f-4783-ab7e-64484287611b")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -13398,7 +12884,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Extended"
+		(property "JLC Type" ""
 			(at 115.57 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13409,7 +12895,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 115.57 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13520,6 +13006,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 99.06 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5c5c598-5858-4f98-8020-3783ed9e0d43")
 		)
@@ -13527,6 +13024,142 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 39.37 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1409f2be-0f8d-42cc-8596-2c12d26a650c")
+		(property "Reference" "C22"
+			(at 41.91 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 41.402 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 49.53 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.243 163.576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 39.37 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 39.37 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 39.37 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 39.37 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 39.37 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 39.37 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46878a52-99bb-4948-a9f9-6dd103c29844")
+		)
+		(pin "2"
+			(uuid "3c959127-c7a6-4cab-955b-4d9c71e25d45")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13608,6 +13241,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 128.27 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c296126d-6e7d-48b8-a4d5-db5156a461f6")
 		)
@@ -13615,130 +13259,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:Schottky SOD-323")
-		(at 193.04 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15b540c3-d94a-4c94-b4be-84d52b8eafe3")
-		(property "Reference" "D1"
-			(at 196.342 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Schottky SOD-323"
-			(at 196.85 137.414 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
-			(at 203.2 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409300937_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 192.913 139.446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1N5819WS"
-			(at 193.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C191023"
-			(at 193.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Guangdong Hottech"
-			(at 193.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N5819WS"
-			(at 193.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 193.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e36ecbc-6f9a-44ae-95e8-4549f86b3405")
-		)
-		(pin "2"
-			(uuid "e75a6859-1198-4bd6-8c57-4ccccd678690")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -13934,6 +13454,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 207.01 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2b2803e-53f9-4fd5-bf8b-45a4ba73c7e0")
 		)
@@ -13944,132 +13475,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 274.32 21.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19cc700d-87a8-4b10-9350-74d233c944ce")
-		(property "Reference" "R24"
-			(at 276.86 20.3199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 276.86 22.8599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:R0402"
-			(at 284.48 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 274.193 23.876 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 274.32 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 274.32 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 274.32 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 274.32 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 274.32 21.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c4e7d3e4-c935-4f99-b099-6a2695ff48d1")
-		)
-		(pin "1"
-			(uuid "5823bd3c-5f03-4268-8e76-60cfea349daa")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -14173,7 +13578,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Extended"
+		(property "JLC Type" ""
 			(at 242.57 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14184,7 +13589,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 242.57 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14211,6 +13616,142 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 242.57 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c10e578-91bb-481f-a0b0-8544b8dea370")
+		(property "Reference" "C6"
+			(at 245.11 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 244.602 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 252.73 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.443 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 242.57 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "851f70bf-520f-4e18-888b-ed3e9d3f680f")
+		)
+		(pin "2"
+			(uuid "dd683dae-8773-4ec2-bc99-425d381f416f")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -14392,6 +13933,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 138.43 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a3c781a3-e0da-4adc-8b08-3d4be28692ed")
 		)
@@ -14408,8 +13960,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 120.65 43.18 180)
+		(lib_id "LCSC Global:SD103AWS-L SOD-323")
+		(at 85.09 163.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14417,9 +13969,34 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "292f98fd-bdcf-47bf-9578-6dc4afb797c8")
-		(property "Reference" "R8"
-			(at 116.84 44.196 0)
+		(fields_autoplaced yes)
+		(uuid "21083dd2-148e-4490-ab94-fa30795793e7")
+		(property "Reference" "D20"
+			(at 88.9 162.8139 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD103AWS-L SOD-323"
+			(at 88.9 165.3539 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
+			(at 95.25 163.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14428,18 +14005,133 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
-			(at 120.65 45.212 0)
+		(property "Datasheet" ""
+			(at 84.963 166.116 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Description" "SD103AWS-L"
+			(at 85.09 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41376466"
+			(at 85.09 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "PIELENST"
+			(at 85.09 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SD103AWS-L"
+			(at 85.09 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 85.09 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 85.09 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cedfd60-138a-42f0-9892-60cb09248fc4")
+		)
+		(pin "2"
+			(uuid "10c08a9f-5373-4c26-ad00-35a64c4bf6d9")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:5.1KΩ 0402 ±1%")
+		(at 120.65 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26b1bfbf-fb19-4c50-ae66-891624ca235d")
+		(property "Reference" "R8"
+			(at 121.92 44.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1KΩ"
+			(at 120.142 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LCSC:R0402"
-			(at 120.65 33.02 0)
+			(at 120.65 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14449,8 +14141,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 122.936 43.307 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 118.364 43.053 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14460,7 +14152,7 @@
 				)
 			)
 		)
-		(property "Description" "10KΩ (1002) ±1%"
+		(property "Description" "5.1KΩ (5101) ±1%"
 			(at 120.65 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14471,7 +14163,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25905"
 			(at 120.65 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14493,7 +14185,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "0402WGF5101TCE"
 			(at 120.65 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14505,7 +14197,18 @@
 			)
 		)
 		(property "JLC Type" ""
-			(at 120.65 43.18 0)
+			(at 120.65 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 120.65 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14516,10 +14219,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1c3a9930-b7e1-4c96-adac-81cc0cf2cee9")
+			(uuid "ce69534d-530d-48b5-8dd4-870118fe7e77")
 		)
 		(pin "1"
-			(uuid "0daec92d-23d6-4583-aaf1-f9531ae5621f")
+			(uuid "aaf69215-a753-421b-8c4d-b79f47df61d5")
 		)
 		(instances
 			(project "Pocket 2.66"
@@ -14717,6 +14420,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 218.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bdb26656-5076-4bac-bf9b-cc570fdd0500")
 		)
@@ -14840,6 +14554,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 137.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f8770f87-0988-42b1-bf9c-c4a22f2a0b69")
 		)
@@ -14953,7 +14678,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Extended"
+		(property "JLC Type" ""
 			(at 222.25 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14964,7 +14689,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 222.25 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14991,6 +14716,280 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 167.64 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31fb62ed-d857-4dbf-92ec-02c1d17c89d0")
+		(property "Reference" "C11"
+			(at 171.45 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 171.45 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 177.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.513 68.326 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 167.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 167.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 167.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 167.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 167.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 167.64 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adaf28fd-5927-43d7-84ee-e9cd40473e14")
+		)
+		(pin "2"
+			(uuid "4b7b7080-b538-4b70-a883-30776684949e")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:SD103AWS-L SOD-323")
+		(at 193.04 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "328ea6ec-b2d6-4d2b-991a-be2f042e61fe")
+		(property "Reference" "D1"
+			(at 195.326 136.906 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD103AWS-L SOD-323"
+			(at 196.85 138.6839 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
+			(at 203.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 192.913 139.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SD103AWS-L"
+			(at 193.04 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41376466"
+			(at 193.04 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "PIELENST"
+			(at 193.04 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SD103AWS-L"
+			(at 193.04 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 193.04 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 193.04 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d3663e8a-e268-48b4-989b-2249e398abd0")
+		)
+		(pin "1"
+			(uuid "73e7fadf-6702-4e57-b532-4667b56dc333")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15094,7 +15093,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Extended"
+		(property "JLC Type" ""
 			(at 201.93 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -15105,7 +15104,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 201.93 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -15293,6 +15292,17 @@
 			)
 		)
 		(property "Manufacturer" "ESPRESSIF(乐鑫)"
+			(at 144.78 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
 			(at 144.78 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15547,6 +15557,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 127 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2453a012-adf6-46de-8c3d-4a32ee49022e")
 		)
@@ -15554,6 +15575,276 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 163.83 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "396a12cc-a50e-47e1-b8c0-64730364e6ba")
+		(property "Reference" "C23"
+			(at 166.37 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 165.862 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 173.99 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.703 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 163.83 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 163.83 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 163.83 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 163.83 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 163.83 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 163.83 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01f89db1-d2cf-4153-8db9-cc94d08b98fc")
+		)
+		(pin "2"
+			(uuid "bd41ff2d-8a30-4c21-980c-5d3ec95bed8a")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:47kΩ 0402 ±1%")
+		(at 36.83 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ab1fdee-1199-4dbf-aa2c-1bf4a4bdbe2a")
+		(property "Reference" "R12"
+			(at 36.83 130.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 36.83 132.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:R0402"
+			(at 36.83 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FRC0402F4702TS"
+			(at 36.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906872"
+			(at 36.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 36.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0402F4702TS"
+			(at 36.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 36.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 36.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a07fd7f5-76a4-41e9-8ad2-9cc608f84767")
+		)
+		(pin "2"
+			(uuid "d395e85f-3d6e-4870-84d7-dc99d597ce43")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -15639,129 +15930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 36.83 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3b4c6576-4e6d-4bcd-90d1-6c554ff7ecde")
-		(property "Reference" "R11"
-			(at 36.576 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 36.83 123.952 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:R0402"
-			(at 36.83 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 34.544 121.793 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 36.83 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 36.83 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 36.83 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 36.83 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 36.83 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "79bcc635-564c-4419-85a0-259dd24e9a04")
-		)
-		(pin "1"
-			(uuid "9575ff57-cde6-4881-84d5-965719b791cf")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 72.39 0)
 		(unit 1)
@@ -15840,8 +16008,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 36.83 134.62 0)
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 93.98 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15849,29 +16017,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3cb8d01f-2b6f-4862-b4a3-65e58d4ce366")
-		(property "Reference" "R12"
-			(at 36.576 130.81 0)
+		(fields_autoplaced yes)
+		(uuid "403d59b9-27ee-4996-847f-e8247ced2920")
+		(property "Reference" "C12"
+			(at 97.79 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10KΩ"
-			(at 36.576 132.588 0)
+		(property "Value" "4.7uF"
+			(at 97.79 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "LCSC:R0402"
-			(at 36.83 144.78 0)
+		(property "Footprint" "LCSC:C0402"
+			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15881,8 +16052,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 34.544 134.493 0)
+		(property "Datasheet" ""
+			(at 93.853 53.086 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15892,8 +16063,8 @@
 				)
 			)
 		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 36.83 134.62 0)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15903,8 +16074,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 36.83 134.62 0)
+		(property "LCSC" "C6119795"
+			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15914,8 +16085,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 36.83 134.62 0)
+		(property "Manufacturer" "HRE"
+			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15925,8 +16096,8 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 36.83 134.62 0)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15936,8 +16107,8 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
-			(at 36.83 134.62 0)
+		(property "JLC Type" "Extended"
+			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15947,16 +16118,27 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "7d7d4f6f-cb9a-4d18-bc01-173b445e600b")
+		(property "LCSC Type" ""
+			(at 93.98 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "b8f6a5dc-e753-4780-a109-9db9f20ff568")
+			(uuid "7aea078f-438c-49e1-91b4-726215c8e9ec")
+		)
+		(pin "2"
+			(uuid "3d3a74c6-d8b7-429d-bf19-fc221cae3629")
 		)
 		(instances
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R12")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -16121,132 +16303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:4.7uF 0805 25V")
-		(at 256.54 157.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "450ffed0-c55a-4636-aa30-a60ebe04eef5")
-		(property "Reference" "C8"
-			(at 260.35 156.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uF 25V"
-			(at 260.35 158.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C1779_C0805"
-			(at 266.7 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf"
-			(at 256.413 159.766 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7uF (475) ±10% 25V"
-			(at 256.54 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1779"
-			(at 256.54 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 256.54 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL21A475KAQNNNE"
-			(at 256.54 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 256.54 157.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86a74200-fada-4ae3-b0cb-aa3cbbe6f213")
-		)
-		(pin "2"
-			(uuid "419e638f-faa5-4835-a3d7-ef44df27d29e")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 138.43 176.53 270)
 		(unit 1)
@@ -16322,6 +16378,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 138.43 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e296835d-70b3-4a0a-a815-27e772376f6c")
 		)
@@ -16329,6 +16396,143 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:47kΩ 0402 ±1%")
+		(at 93.98 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "463314b6-ba99-4a7d-90a3-2d00de371d48")
+		(property "Reference" "R4"
+			(at 96.52 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 96.52 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:R0402"
+			(at 104.14 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FRC0402F4702TS"
+			(at 93.98 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906872"
+			(at 93.98 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 93.98 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0402F4702TS"
+			(at 93.98 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 93.98 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 93.98 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a662333d-972d-4831-846e-b753011355ac")
+		)
+		(pin "2"
+			(uuid "68ea92c7-c5ed-4442-8c5d-21d269268380")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16407,256 +16611,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:1uF 0402 25V")
-		(at 193.04 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4ac5db24-8beb-4f08-bc1c-fae936c09d9c")
-		(property "Reference" "C2"
-			(at 195.58 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 195.58 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C0402"
-			(at 203.2 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 192.913 152.146 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF (105) ±10% 25V"
-			(at 193.04 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 193.04 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 193.04 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 193.04 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 193.04 149.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f2bba96-5e5f-4e00-8201-650dc414ba60")
-		)
-		(pin "2"
-			(uuid "444f219f-ac9a-4853-85b7-a298b7a40ac3")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:4.7uF 0402 10V")
-		(at 167.64 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4b71dfa2-02fa-4bc3-93ea-4aea85cfdfb3")
-		(property "Reference" "C11"
-			(at 168.91 64.008 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uF 10V"
-			(at 169.418 69.342 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C0402"
-			(at 177.8 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
-			(at 167.513 68.326 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7uF (475) ±20% 10V"
-			(at 167.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23733"
-			(at 167.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 167.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A475MP5NRNC"
-			(at 167.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 167.64 66.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c06577ac-12e1-403c-8c96-18222c0c6a9b")
-		)
-		(pin "1"
-			(uuid "0ea02461-892f-4d21-949c-106e09876c69")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -16816,6 +16770,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 138.43 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0219d986-5d3a-4ec5-aa97-fecaef026d58")
 		)
@@ -16925,7 +16890,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Extended"
+		(property "JLC Type" ""
 			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16936,7 +16901,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -17045,6 +17010,276 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 248.92 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "525e74ed-abf3-409d-ade4-9db9c47d09ac")
+		(property "Reference" "C7"
+			(at 251.46 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 250.19 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 259.08 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.793 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 248.92 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 248.92 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 248.92 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 248.92 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 248.92 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 248.92 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ab5b3dd-d0d7-4aa9-86bf-fd53bd3da21b")
+		)
+		(pin "2"
+			(uuid "a751a6ae-8572-4e93-95d3-8973a01e9cb2")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:47kΩ 0402 ±1%")
+		(at 252.73 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "564fe9db-3b9c-44f4-8d60-7fc5baaa7493")
+		(property "Reference" "R2"
+			(at 248.666 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 252.73 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:R0402"
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FRC0402F4702TS"
+			(at 252.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906872"
+			(at 252.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 252.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0402F4702TS"
+			(at 252.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 252.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 252.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43a39ae9-bd7e-4d36-b502-f93cd117e3f3")
+		)
+		(pin "2"
+			(uuid "00a26a9e-40f8-4a52-8e02-e63c118dd3e3")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -17227,7 +17462,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Extended"
+		(property "JLC Type" ""
 			(at 161.29 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -17238,7 +17473,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 161.29 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -17380,6 +17615,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 74.93 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c0615823-a7ea-4901-8d23-a20ead2ea74e")
 		)
@@ -17396,8 +17642,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 36.83 137.16 0)
+		(lib_id "LCSC Global:47kΩ 0402 ±1%")
+		(at 36.83 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17405,9 +17651,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "60178ec3-66f9-40b3-a275-d0516159e0c8")
-		(property "Reference" "R13"
-			(at 36.83 140.97 0)
+		(uuid "614b6ccb-3a42-4d82-9490-825e83e790a9")
+		(property "Reference" "R14"
+			(at 36.83 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17416,8 +17662,8 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
-			(at 36.83 139.192 0)
+		(property "Value" "47kΩ"
+			(at 36.83 117.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17427,7 +17673,7 @@
 			)
 		)
 		(property "Footprint" "LCSC:R0402"
-			(at 36.83 147.32 0)
+			(at 36.83 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17437,8 +17683,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 34.544 137.033 0)
+		(property "Datasheet" ""
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17448,8 +17694,8 @@
 				)
 			)
 		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 36.83 137.16 0)
+		(property "Description" "FRC0402F4702TS"
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17459,8 +17705,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 36.83 137.16 0)
+		(property "LCSC" "C2906872"
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17470,8 +17716,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 36.83 137.16 0)
+		(property "Manufacturer" "FOJAN"
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17481,8 +17727,8 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 36.83 137.16 0)
+		(property "MPN" "FRC0402F4702TS"
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17492,8 +17738,8 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
-			(at 36.83 137.16 0)
+		(property "JLC Type" "Extended"
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17503,16 +17749,27 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "c3249955-0335-43e5-a0b4-97b1f83a38dc")
+		(property "LCSC Type" ""
+			(at 36.83 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "8ad93f04-fc4d-495a-9bd1-edf21c9f44d5")
+			(uuid "adba4410-dedc-4ef9-be0e-67c674c968f5")
+		)
+		(pin "2"
+			(uuid "60058647-0faf-4e23-a858-e6d5471516ba")
 		)
 		(instances
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -17662,6 +17919,17 @@
 			)
 		)
 		(property "JLC Type" ""
+			(at 161.29 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
 			(at 161.29 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -17840,6 +18108,140 @@
 		)
 	)
 	(symbol
+		(lib_id "LCSC Global:47kΩ 0402 ±1%")
+		(at 115.57 127 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68232d4c-e3c6-4f28-b7c1-6a8e605a6814")
+		(property "Reference" "R18"
+			(at 115.316 122.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 115.57 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:R0402"
+			(at 115.57 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FRC0402F4702TS"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906872"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0402F4702TS"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9198a69b-b1cb-415a-b0fa-e6cf94e8da84")
+		)
+		(pin "2"
+			(uuid "64024256-8674-4089-8d38-2956bb502481")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LCSC Global:AO3400")
 		(at 204.47 119.38 0)
 		(mirror x)
@@ -17950,6 +18352,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8317f441-f5da-4954-b675-4d7e496b0440")
 		)
@@ -17963,6 +18376,142 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 226.06 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6bba5ef1-5b30-41c4-a392-0bec8838edd4")
+		(property "Reference" "C0"
+			(at 228.6 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 228.092 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 236.22 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225.933 159.766 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 226.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 226.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 226.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 226.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 226.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 226.06 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9619c87-7510-4c0e-914d-e1f7061633a8")
+		)
+		(pin "2"
+			(uuid "c572e5e0-3e2c-4963-9daa-8eb68b2d6980")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C0")
 					(unit 1)
 				)
 			)
@@ -18048,6 +18597,140 @@
 		)
 	)
 	(symbol
+		(lib_id "LCSC Global:47kΩ 0402 ±1%")
+		(at 157.48 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ca2837e-1a98-4fb1-bd9f-1ddb149f2def")
+		(property "Reference" "R19"
+			(at 155.194 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 160.02 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:R0402"
+			(at 167.64 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FRC0402F4702TS"
+			(at 157.48 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906872"
+			(at 157.48 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 157.48 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0402F4702TS"
+			(at 157.48 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 157.48 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 157.48 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7ffc2a5-96bf-4901-bd62-7e490d7d5dc5")
+		)
+		(pin "2"
+			(uuid "073832c9-a6bd-4f9c-a5ca-d05bbb068fee")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 187.96 0)
 		(unit 1)
@@ -18120,132 +18803,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 93.98 38.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72957b57-5f24-45cc-8b87-1f67ba37cfb4")
-		(property "Reference" "R4"
-			(at 96.52 36.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 96.52 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:R0402"
-			(at 104.14 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 93.853 40.386 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 93.98 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 93.98 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 93.98 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 93.98 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 93.98 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3867d572-7fbb-4839-a17e-f19ade281616")
-		)
-		(pin "1"
-			(uuid "c8bf9775-00ea-45fb-9ca0-a953ef7a6eaa")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -18403,131 +18960,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:4.7uF 0402 10V")
-		(at 226.06 157.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7836ce2b-fb13-46ab-b990-33c38c9935a9")
-		(property "Reference" "C0"
-			(at 227.33 155.448 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uF 10V"
-			(at 227.838 160.782 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C0402"
-			(at 236.22 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
-			(at 225.933 159.766 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7uF (475) ±20% 10V"
-			(at 226.06 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23733"
-			(at 226.06 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 226.06 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A475MP5NRNC"
-			(at 226.06 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 226.06 157.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "12019ab4-faef-4773-84f5-948002bd4fe7")
-		)
-		(pin "1"
-			(uuid "657ca96c-0d0f-49a1-bbc5-80ef6c5cf1f8")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C0")
 					(unit 1)
 				)
 			)
@@ -18767,8 +19199,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:1uF 0402 25V")
-		(at 22.86 133.35 90)
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 233.68 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18776,9 +19208,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7f644747-eb37-4f21-baf5-2b799695550b")
-		(property "Reference" "C13"
-			(at 25.4 132.08 90)
+		(uuid "80a4ef14-d932-4bd8-b255-16ec384b7955")
+		(property "Reference" "C1"
+			(at 236.22 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18788,8 +19220,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 25.4 134.62 90)
+		(property "Value" "4.7uF"
+			(at 235.712 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18800,7 +19232,7 @@
 			)
 		)
 		(property "Footprint" "LCSC:C0402"
-			(at 33.02 133.35 0)
+			(at 243.84 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18810,8 +19242,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 22.733 135.636 0)
+		(property "Datasheet" ""
+			(at 233.553 155.956 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18821,8 +19253,8 @@
 				)
 			)
 		)
-		(property "Description" "1uF (105) ±10% 25V"
-			(at 22.86 133.35 0)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 233.68 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18832,8 +19264,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
-			(at 22.86 133.35 0)
+		(property "LCSC" "C6119795"
+			(at 233.68 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18843,8 +19275,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 22.86 133.35 0)
+		(property "Manufacturer" "HRE"
+			(at 233.68 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18854,8 +19286,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 22.86 133.35 0)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 233.68 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18865,8 +19297,19 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
-			(at 22.86 133.35 90)
+		(property "JLC Type" "Extended"
+			(at 233.68 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 233.68 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18877,15 +19320,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "88ec8fc7-66cb-488b-94fa-4a44f146075a")
+			(uuid "b76f7677-7461-4f02-ad94-168405a626f9")
 		)
 		(pin "2"
-			(uuid "db133b78-b977-499a-8730-95fc387d07a2")
+			(uuid "09fa7a1f-0ac2-4de8-a4ff-a26b1d57eb96")
 		)
 		(instances
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C13")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -18964,6 +19407,142 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 203.2 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82c4f127-fbb1-4553-be91-627f81bc4a25")
+		(property "Reference" "C3"
+			(at 205.74 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 205.232 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 213.36 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.073 139.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 203.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 203.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 203.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 203.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 203.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 203.2 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98baa518-8567-491c-b73d-53583918640a")
+		)
+		(pin "2"
+			(uuid "77a43eba-c42b-4ae8-8cd5-79e03308d688")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -19146,7 +19725,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Basic"
+		(property "JLC Type" ""
 			(at 57.15 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -19157,7 +19736,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 57.15 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -19178,131 +19757,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:1uF 0402 25V")
-		(at 203.2 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8949a958-388e-4e30-bced-1c043285b9c7")
-		(property "Reference" "C3"
-			(at 205.74 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 205.74 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C0402"
-			(at 213.36 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 203.073 139.446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF (105) ±10% 25V"
-			(at 203.2 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 203.2 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 203.2 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 203.2 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 203.2 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d9c4a258-ed44-4c9a-9c4c-bea23574a687")
-		)
-		(pin "2"
-			(uuid "7832552e-a9ab-4b2a-924b-c833bbffb0b5")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -19418,6 +19872,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 26.67 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a88e0cf8-cd3c-41a7-8c0c-5873033d80b8")
 		)
@@ -19434,8 +19899,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:Schottky SOD-323")
-		(at 209.55 143.51 0)
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 241.3 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19443,133 +19908,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8fb2f16a-cbc2-4af3-b293-dc23ed94876e")
-		(property "Reference" "D3"
-			(at 209.55 146.812 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Schottky SOD-323"
-			(at 209.296 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
-			(at 209.55 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409300937_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 207.264 143.383 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1N5819WS"
-			(at 209.55 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C191023"
-			(at 209.55 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Guangdong Hottech"
-			(at 209.55 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N5819WS"
-			(at 209.55 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 209.55 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36c45260-6dd8-40de-af0d-5b9065054f60")
-		)
-		(pin "2"
-			(uuid "1f46f159-b66d-4b9d-a87d-b2268bfbb42b")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:1uF 0402 25V")
-		(at 248.92 153.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "935bc815-2c88-47ce-9222-eed91beb4d32")
-		(property "Reference" "C7"
-			(at 251.46 152.4 90)
+		(uuid "946ea86d-a42f-4636-aadb-45725bf00d58")
+		(property "Reference" "C5"
+			(at 243.84 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19579,8 +19920,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 251.46 154.94 90)
+		(property "Value" "4.7uF"
+			(at 243.332 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19591,7 +19932,7 @@
 			)
 		)
 		(property "Footprint" "LCSC:C0402"
-			(at 259.08 153.67 0)
+			(at 251.46 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19601,8 +19942,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 248.793 155.956 0)
+		(property "Datasheet" ""
+			(at 241.173 159.766 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19612,8 +19953,8 @@
 				)
 			)
 		)
-		(property "Description" "1uF (105) ±10% 25V"
-			(at 248.92 153.67 0)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 241.3 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19623,8 +19964,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
-			(at 248.92 153.67 0)
+		(property "LCSC" "C6119795"
+			(at 241.3 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19634,8 +19975,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 248.92 153.67 0)
+		(property "Manufacturer" "HRE"
+			(at 241.3 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19645,8 +19986,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 248.92 153.67 0)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 241.3 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19656,8 +19997,19 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
-			(at 248.92 153.67 90)
+		(property "JLC Type" "Extended"
+			(at 241.3 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 241.3 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19668,15 +20020,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4522146b-6d17-4aaf-a611-225b707bb127")
+			(uuid "b010e238-c26f-4c54-bfac-63716403695b")
 		)
 		(pin "2"
-			(uuid "7ca6b18a-cc77-478c-bf7b-448bcdbcbe30")
+			(uuid "a2fc051c-fa74-43cc-a90b-d8d6f9b74851")
 		)
 		(instances
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -19869,6 +20221,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 124.46 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bceb02af-1d13-4a8b-b9ff-3e3653c7eefc")
 		)
@@ -19879,131 +20242,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:1uF 0402 25V")
-		(at 250.19 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "9bc11e25-65b1-41c2-b2b2-d9735a71d162")
-		(property "Reference" "C9"
-			(at 252.73 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 252.73 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C0402"
-			(at 260.35 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 250.063 94.996 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF (105) ±10% 25V"
-			(at 250.19 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 250.19 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 250.19 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 250.19 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 250.19 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24482298-387b-4da3-9690-dccd4f775886")
-		)
-		(pin "2"
-			(uuid "aeb52167-cc41-4d76-afc9-0e8a7e320414")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -20275,6 +20513,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 26.67 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "253f548b-b2d5-478f-8149-75815473cdcb")
 		)
@@ -20285,129 +20534,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 120.65 40.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9edc62e7-60a1-4691-8d6e-9eb4020f47ad")
-		(property "Reference" "R5"
-			(at 116.84 41.656 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 120.65 38.608 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:R0402"
-			(at 120.65 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 122.936 40.767 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 120.65 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 120.65 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 120.65 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 120.65 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 120.65 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "adb6e0f5-aec6-48ab-9004-edbe1ca12198")
-		)
-		(pin "1"
-			(uuid "326d28a6-755d-46a6-8541-40624d77f020")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -20680,6 +20806,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 17.78 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "54b7a8c1-b36d-4870-8728-96f5be521a63")
 		)
@@ -20806,6 +20943,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 57.15 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ec2e99f9-aba8-4bdb-a209-1dfbf24121c5")
 		)
@@ -20887,6 +21035,17 @@
 			)
 		)
 		(property "JLC Type" ""
+			(at 161.29 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
 			(at 161.29 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -20988,8 +21147,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 36.83 119.38 0)
+		(lib_id "LCSC Global:5.1KΩ 0402 ±1%")
+		(at 120.65 40.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20997,29 +21156,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ab7ec3ad-4702-401b-8e39-f9f96d4afdd4")
-		(property "Reference" "R14"
-			(at 36.576 115.57 0)
+		(uuid "b1aad12d-c530-4d25-a152-5dd0ca04ec1b")
+		(property "Reference" "R5"
+			(at 119.38 39.116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10KΩ"
-			(at 36.576 117.348 0)
+		(property "Value" "5.1KΩ"
+			(at 120.65 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LCSC:R0402"
-			(at 36.83 129.54 0)
+			(at 120.65 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21029,8 +21190,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 34.544 119.253 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 122.936 40.767 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21040,8 +21201,8 @@
 				)
 			)
 		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 36.83 119.38 0)
+		(property "Description" "5.1KΩ (5101) ±1%"
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21051,8 +21212,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 36.83 119.38 0)
+		(property "LCSC" "C25905"
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21063,7 +21224,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 36.83 119.38 0)
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21073,8 +21234,8 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 36.83 119.38 0)
+		(property "MPN" "0402WGF5101TCE"
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21085,7 +21246,18 @@
 			)
 		)
 		(property "JLC Type" ""
-			(at 36.83 119.38 0)
+			(at 120.65 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 120.65 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21096,23 +21268,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "f24fb514-1b6b-4c9d-b55e-1a69c0c1bc09")
+			(uuid "35ece8a1-f1b4-4a9e-91b2-2b21c4d1bf6e")
 		)
 		(pin "1"
-			(uuid "ec3964d8-6c45-46f4-b683-e49caa928b41")
+			(uuid "8e7d5494-a75a-4235-be8a-b09feae85087")
 		)
 		(instances
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R14")
+					(reference "R5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:4.7uF 0402 10V")
-		(at 39.37 161.29 90)
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 133.35 180.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21120,9 +21292,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "afebb7f3-a1f0-4969-b1f2-98af8d301db5")
-		(property "Reference" "C22"
-			(at 40.64 159.258 90)
+		(uuid "b1ff05e7-3e2c-4821-a9e6-be972877036e")
+		(property "Reference" "C21"
+			(at 135.89 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21132,8 +21304,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF 10V"
-			(at 41.148 164.592 90)
+		(property "Value" "4.7uF"
+			(at 135.382 181.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21144,7 +21316,7 @@
 			)
 		)
 		(property "Footprint" "LCSC:C0402"
-			(at 49.53 161.29 0)
+			(at 143.51 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21154,8 +21326,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
-			(at 39.243 163.576 0)
+		(property "Datasheet" ""
+			(at 133.223 182.626 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21165,8 +21337,8 @@
 				)
 			)
 		)
-		(property "Description" "4.7uF (475) ±20% 10V"
-			(at 39.37 161.29 0)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 133.35 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21176,8 +21348,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C23733"
-			(at 39.37 161.29 0)
+		(property "LCSC" "C6119795"
+			(at 133.35 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21187,8 +21359,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 39.37 161.29 0)
+		(property "Manufacturer" "HRE"
+			(at 133.35 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21198,8 +21370,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
-			(at 39.37 161.29 0)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 133.35 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21209,8 +21381,8 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
-			(at 39.37 161.29 90)
+		(property "JLC Type" "Extended"
+			(at 133.35 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21220,16 +21392,27 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "7d978ec9-6d18-4f58-b9e3-7a5fcaae0f84")
+		(property "LCSC Type" ""
+			(at 133.35 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "31c4227c-67bf-4f05-964b-13eda248cc61")
+			(uuid "c37ad30c-8b03-4aa5-ba3c-818a80df340f")
+		)
+		(pin "2"
+			(uuid "f380c95f-7f7c-43c9-94c4-e9781f9e1ee7")
 		)
 		(instances
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -21343,6 +21526,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 165.1 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "14147cbc-a8d1-4b9d-8c4a-d5f3d75c08a2")
 		)
@@ -21432,131 +21626,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:1uF 0402 25V")
-		(at 63.5 181.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b4854f83-2c2a-4946-8951-7970c26db228")
-		(property "Reference" "C20"
-			(at 66.04 180.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 66.04 182.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C0402"
-			(at 73.66 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 63.373 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF (105) ±10% 25V"
-			(at 63.5 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 63.5 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 63.5 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 63.5 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 63.5 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d42e5d32-bbfa-4634-982e-8a59f28d7e55")
-		)
-		(pin "2"
-			(uuid "e9bd2850-b01b-43a3-a0aa-4df578cc6652")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -21720,6 +21789,142 @@
 		)
 	)
 	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 22.86 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbf31e07-aa4c-4ee3-a75b-fb846c3f8491")
+		(property "Reference" "C13"
+			(at 25.4 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 24.892 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 33.02 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.733 135.636 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 22.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 22.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 22.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 22.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 22.86 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 22.86 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffcc5014-2a38-494f-b649-dcc70eeb02e3")
+		)
+		(pin "2"
+			(uuid "da92292f-c0b6-4274-9f03-2843a9ddcf70")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LCSC Global:USB-TYPE-C-018")
 		(at 52.07 39.37 0)
 		(unit 1)
@@ -21819,7 +22024,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Extended"
+		(property "JLC Type" ""
 			(at 52.07 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -21830,7 +22035,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 52.07 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -22064,6 +22269,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 163.83 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5d2ad3b-316f-432d-9fb4-d6d8dcb1fef9")
 		)
@@ -22071,131 +22287,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:1uF 0402 25V")
-		(at 233.68 153.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bfb8d2c7-ab9c-4079-8792-652a74254db7")
-		(property "Reference" "C1"
-			(at 236.22 152.4 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 236.22 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C0402"
-			(at 243.84 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 233.553 155.956 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF (105) ±10% 25V"
-			(at 233.68 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 233.68 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 233.68 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 233.68 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 233.68 153.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df24cc90-0a52-4b92-858d-32e9b09fdb6a")
-		)
-		(pin "2"
-			(uuid "ed5a5c5b-ef0e-4a95-8795-9e71e5d137d7")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -22274,6 +22365,277 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:47kΩ 0402 ±1%")
+		(at 36.83 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2170d36-bc63-45cf-8f10-90ec4ecd1d86")
+		(property "Reference" "R11"
+			(at 36.83 141.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 36.83 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:R0402"
+			(at 36.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FRC0402F4702TS"
+			(at 36.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2906872"
+			(at 36.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 36.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0402F4702TS"
+			(at 36.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 36.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 36.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "437aedf6-c125-48cf-83d0-2fbc29353d05")
+		)
+		(pin "2"
+			(uuid "fb1d98e4-c2e9-47d0-bac1-581d73af338a")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:SD103AWS-L SOD-323")
+		(at 203.2 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c244e7fd-ffdb-4a9f-bf8a-6b5ca918a608")
+		(property "Reference" "D2"
+			(at 205.74 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD103AWS-L SOD-323"
+			(at 207.01 151.3839 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
+			(at 213.36 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.073 152.146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SD103AWS-L"
+			(at 203.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41376466"
+			(at 203.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "PIELENST"
+			(at 203.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SD103AWS-L"
+			(at 203.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 203.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 203.2 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59058eb4-4174-4d70-96d5-5038112e3b1b")
+		)
+		(pin "1"
+			(uuid "c81f936d-1857-4bde-a32f-41488079be12")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -22378,6 +22740,17 @@
 			)
 		)
 		(property "JLC Type" "Extended"
+			(at 58.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
 			(at 58.42 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -22506,6 +22879,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 127 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3f11d2fe-4fa8-4c16-bce2-5b1a0381623a")
 		)
@@ -22519,8 +22903,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:1uF 0402 25V")
-		(at 242.57 96.52 90)
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 215.9 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22528,9 +22912,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ca736eff-0cbe-47f3-9a05-930829ad1630")
-		(property "Reference" "C6"
-			(at 245.11 95.25 90)
+		(uuid "c803c49b-ff21-4016-a049-250b2da881c6")
+		(property "Reference" "C4"
+			(at 218.44 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22540,8 +22924,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 245.11 97.79 90)
+		(property "Value" "4.7uF"
+			(at 217.932 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22552,7 +22936,7 @@
 			)
 		)
 		(property "Footprint" "LCSC:C0402"
-			(at 252.73 96.52 0)
+			(at 226.06 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22562,8 +22946,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 242.443 98.806 0)
+		(property "Datasheet" ""
+			(at 215.773 152.146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22573,8 +22957,8 @@
 				)
 			)
 		)
-		(property "Description" "1uF (105) ±10% 25V"
-			(at 242.57 96.52 0)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 215.9 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22584,8 +22968,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
-			(at 242.57 96.52 0)
+		(property "LCSC" "C6119795"
+			(at 215.9 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22595,8 +22979,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 242.57 96.52 0)
+		(property "Manufacturer" "HRE"
+			(at 215.9 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22606,8 +22990,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 242.57 96.52 0)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 215.9 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22617,8 +23001,19 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
-			(at 242.57 96.52 90)
+		(property "JLC Type" "Extended"
+			(at 215.9 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 215.9 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22629,140 +23024,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5462135f-14da-4160-b2d3-78beec13efd4")
+			(uuid "6ac7e791-d07a-4e29-878c-12e10590ee84")
 		)
 		(pin "2"
-			(uuid "073cd8a0-1f2e-4388-a5bb-832f33d95969")
+			(uuid "e6297a35-e855-43e7-818d-33f28a0d8ee7")
 		)
 		(instances
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:4.7uF 0402 10V")
-		(at 93.98 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cce9ed7f-5052-458e-ac38-ba8e34c7d2be")
-		(property "Reference" "C12"
-			(at 95.25 48.768 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uF 10V"
-			(at 94.996 53.848 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C0402"
-			(at 104.14 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
-			(at 93.853 53.086 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7uF (475) ±20% 10V"
-			(at 93.98 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23733"
-			(at 93.98 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 93.98 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A475MP5NRNC"
-			(at 93.98 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 93.98 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0627b07f-4596-4146-865f-697af8d563b6")
-		)
-		(pin "1"
-			(uuid "dcf407b8-bef8-4818-af2a-cfb486d71bc5")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C12")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -22847,6 +23117,142 @@
 		)
 	)
 	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 63.5 181.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d027390d-a68f-46a3-b588-3f8969a74b9a")
+		(property "Reference" "C20"
+			(at 66.04 180.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 65.532 182.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 73.66 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.373 183.896 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 63.5 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 63.5 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 63.5 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 63.5 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 63.5 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 63.5 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d9b08c7-040e-4bb1-9557-95838d0f981d")
+		)
+		(pin "2"
+			(uuid "ab8a5dbc-b7cf-4505-ba8e-e932c4661185")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 185.42 0)
 		(unit 1)
@@ -22919,6 +23325,277 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:SD103AWS-L SOD-323")
+		(at 209.55 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2025b2f-77cd-4c88-9d4b-8ade88155c38")
+		(property "Reference" "D3"
+			(at 209.804 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD103AWS-L SOD-323"
+			(at 209.296 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
+			(at 209.55 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.264 143.383 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SD103AWS-L"
+			(at 209.55 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41376466"
+			(at 209.55 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "PIELENST"
+			(at 209.55 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SD103AWS-L"
+			(at 209.55 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 209.55 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 209.55 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f724f71a-f8d3-4987-8613-7d5cfe103584")
+		)
+		(pin "1"
+			(uuid "304a1cc0-8bf8-41d8-9b23-a2a66c140052")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:5.1KΩ 0402 ±1%")
+		(at 274.32 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7ffbcbd-1104-4dd1-b946-fc87fcd2526b")
+		(property "Reference" "R23"
+			(at 275.844 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1KΩ"
+			(at 276.098 35.306 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:R0402"
+			(at 284.48 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 274.193 36.576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5.1KΩ (5101) ±1%"
+			(at 274.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 274.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 274.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 274.32 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" ""
+			(at 274.32 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 274.32 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d4ecb20a-a4fe-4c56-88bb-10cf16f8cae0")
+		)
+		(pin "1"
+			(uuid "ec57de63-cfa7-4a43-8e6d-8ad7ebd16a70")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -23032,6 +23709,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 73.66 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e258889c-f413-4621-97fb-e62fd6766f15")
 		)
@@ -23051,8 +23739,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:Schottky SOD-323")
-		(at 85.09 163.83 90)
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 256.54 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23060,10 +23748,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db42fccf-785f-4e49-85b7-2f52735eccb5")
-		(property "Reference" "D20"
-			(at 88.9 162.8139 90)
+		(uuid "dd1ed2c7-fd85-4bc8-940b-bf514e73492a")
+		(property "Reference" "C8"
+			(at 259.08 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23073,8 +23760,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Schottky SOD-323"
-			(at 88.9 165.3539 90)
+		(property "Value" "4.7uF"
+			(at 258.572 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23084,8 +23771,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
-			(at 95.25 163.83 0)
+		(property "Footprint" "LCSC:C0402"
+			(at 266.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23095,8 +23782,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409300937_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 84.963 166.116 0)
+		(property "Datasheet" ""
+			(at 256.413 159.766 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23106,8 +23793,8 @@
 				)
 			)
 		)
-		(property "Description" "1N5819WS"
-			(at 85.09 163.83 0)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 256.54 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23117,8 +23804,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C191023"
-			(at 85.09 163.83 0)
+		(property "LCSC" "C6119795"
+			(at 256.54 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23128,8 +23815,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Guangdong Hottech"
-			(at 85.09 163.83 0)
+		(property "Manufacturer" "HRE"
+			(at 256.54 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23139,8 +23826,8 @@
 				)
 			)
 		)
-		(property "MPN" "1N5819WS"
-			(at 85.09 163.83 0)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 256.54 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23150,8 +23837,19 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
-			(at 85.09 163.83 90)
+		(property "JLC Type" "Extended"
+			(at 256.54 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 256.54 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23162,15 +23860,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bacb7b8-cbc6-43e6-a770-ffdf6bd78a24")
+			(uuid "c08a84e7-1a5e-4c1e-ba83-0ceaf8f77a01")
 		)
 		(pin "2"
-			(uuid "4c00cd25-f60c-4282-a819-64599d7d5377")
+			(uuid "bfbaf99b-5d6c-4c78-9b1a-3becd3ea2a4e")
 		)
 		(instances
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "D20")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -23242,6 +23940,17 @@
 			)
 		)
 		(property "JLC Type" ""
+			(at 120.65 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
 			(at 120.65 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -23337,6 +24046,142 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:4.7uF 0402 25V (Non-basic)")
+		(at 193.04 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e165a902-ea82-4d50-9290-3bc3477601ed")
+		(property "Reference" "C2"
+			(at 195.58 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 195.072 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:C0402"
+			(at 203.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 192.913 152.146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CGA0402X5R475M250GT"
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6119795"
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0402X5R475M250GT"
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" "Extended"
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 193.04 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b3349c5-0d1d-4371-8757-2f06f243af39")
+		)
+		(pin "2"
+			(uuid "035e4f25-6bc5-45d4-a90a-6b9a132c6e85")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -23441,7 +24286,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Extended"
+		(property "JLC Type" ""
 			(at 269.24 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -23452,7 +24297,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 269.24 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -23551,130 +24396,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:Schottky SOD-323")
-		(at 203.2 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e61b2c6d-e9e3-40f5-987b-4121185e67e6")
-		(property "Reference" "D2"
-			(at 206.502 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Schottky SOD-323"
-			(at 207.01 150.114 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
-			(at 213.36 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409300937_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 203.073 152.146 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1N5819WS"
-			(at 203.2 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C191023"
-			(at 203.2 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Guangdong Hottech"
-			(at 203.2 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N5819WS"
-			(at 203.2 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 203.2 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d26d7fd9-1429-4191-af69-061d8b1727a9")
-		)
-		(pin "2"
-			(uuid "f8307f29-0c5c-4de0-a7af-83bcc1378a8e")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 130.81 171.45 0)
 		(unit 1)
@@ -23747,252 +24468,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 115.57 127 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e9949790-9380-4014-ad5c-fb55a40107e2")
-		(property "Reference" "R18"
-			(at 115.57 124.968 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 115.824 123.444 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:R0402"
-			(at 115.57 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 117.856 127.127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 115.57 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 115.57 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 115.57 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 115.57 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 115.57 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4223a93a-9557-4e8a-8d42-0820c909ae65")
-		)
-		(pin "1"
-			(uuid "0443061b-ff37-4690-9e72-0688740dcb6c")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:10KΩ 0402 ±1%")
-		(at 252.73 115.57 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "ea26c282-c8a8-4b5d-85a2-b694c5a4ac16")
-		(property "Reference" "R3"
-			(at 248.412 116.586 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10KΩ"
-			(at 252.73 117.602 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LCSC:R0402"
-			(at 252.73 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 255.016 115.697 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 252.73 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 252.73 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 252.73 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 252.73 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 252.73 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f6564fa6-ad55-42ee-9cdb-ccc662a10b29")
-		)
-		(pin "1"
-			(uuid "874f4cb8-4c95-4dd0-959e-52703d9b39b2")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -24174,7 +24649,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Promotional"
+		(property "JLC Type" ""
 			(at 40.64 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -24185,7 +24660,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 40.64 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -24224,40 +24699,38 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC Global:1uF 0402 25V")
-		(at 241.3 157.48 90)
+		(lib_id "LCSC Global:47kΩ 0402 ±1%")
+		(at 252.73 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee11e152-bba4-426c-b899-bb573d61b811")
-		(property "Reference" "C5"
-			(at 243.84 156.21 90)
+		(dnp yes)
+		(uuid "eebe8c91-ac4a-4f88-955a-9d75f41700d0")
+		(property "Reference" "R3"
+			(at 248.666 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 243.84 158.75 90)
+		(property "Value" "47kΩ"
+			(at 252.73 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LCSC:C0402"
-			(at 251.46 157.48 0)
+		(property "Footprint" "LCSC:R0402"
+			(at 252.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24267,8 +24740,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 241.173 159.766 0)
+		(property "Datasheet" ""
+			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24278,8 +24751,8 @@
 				)
 			)
 		)
-		(property "Description" "1uF (105) ±10% 25V"
-			(at 241.3 157.48 0)
+		(property "Description" "FRC0402F4702TS"
+			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24289,8 +24762,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
-			(at 241.3 157.48 0)
+		(property "LCSC" "C2906872"
+			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24300,8 +24773,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 241.3 157.48 0)
+		(property "Manufacturer" "FOJAN"
+			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24311,8 +24784,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 241.3 157.48 0)
+		(property "MPN" "FRC0402F4702TS"
+			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24322,8 +24795,19 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
-			(at 241.3 157.48 90)
+		(property "JLC Type" "Extended"
+			(at 252.73 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24334,15 +24818,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "247158dd-5194-442a-90f5-f85737bba001")
+			(uuid "287ae66c-c3dd-4908-a572-c95b59880db1")
 		)
 		(pin "2"
-			(uuid "15b4b921-dae5-417e-91ae-581644c14b09")
+			(uuid "b13aa5b5-d1a2-4e14-bad1-131b737f20c7")
 		)
 		(instances
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -24616,6 +25100,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 26.67 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "80748120-e10f-4382-829d-812b588b1de8")
 		)
@@ -24707,6 +25202,17 @@
 				)
 			)
 		)
+		(property "LCSC Type" ""
+			(at 127 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca120175-f52a-439d-a2fd-12dc781c4441")
 		)
@@ -24714,6 +25220,142 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC Global:5.1KΩ 0402 ±1%")
+		(at 274.32 21.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4ef560c-ee94-4d42-b3a7-de6fb4d17932")
+		(property "Reference" "R24"
+			(at 275.844 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1KΩ"
+			(at 276.098 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LCSC:R0402"
+			(at 284.48 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 274.193 23.876 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5.1KΩ (5101) ±1%"
+			(at 274.32 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 274.32 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 274.32 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 274.32 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Type" ""
+			(at 274.32 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Type" ""
+			(at 274.32 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d804d1d3-0748-4a73-b269-4113d2d1bfc7")
+		)
+		(pin "1"
+			(uuid "aa47c093-a287-43e0-8cc6-d5dafa2fa168")
+		)
+		(instances
+			(project "Pocket 2.66"
+				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -24973,7 +25615,7 @@
 				)
 			)
 		)
-		(property "JLC Type" "Extended"
+		(property "JLC Type" ""
 			(at 138.43 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -24984,7 +25626,7 @@
 				)
 			)
 		)
-		(property "JLC Type" ""
+		(property "LCSC Type" ""
 			(at 138.43 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -25107,131 +25749,6 @@
 			(project "Pocket 2.66"
 				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC Global:1uF 0402 25V")
-		(at 215.9 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fdf7a408-57d8-4995-939b-acbf3d240c02")
-		(property "Reference" "C4"
-			(at 218.44 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 218.44 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LCSC:C0402"
-			(at 226.06 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 215.773 152.146 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF (105) ±10% 25V"
-			(at 215.9 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 215.9 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 215.9 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05A105KA5NQNC"
-			(at 215.9 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC Type" ""
-			(at 215.9 149.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5b227e0-2b2b-482e-9e85-0e91d825320e")
-		)
-		(pin "2"
-			(uuid "e13ffe5c-6a27-4136-ab92-9dc5271ad97a")
-		)
-		(instances
-			(project "Pocket 2.66"
-				(path "/1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
-					(reference "C4")
 					(unit 1)
 				)
 			)
