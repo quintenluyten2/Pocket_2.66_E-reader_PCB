@@ -6700,7 +6700,7 @@
 			)
 		)
 
-		(property "LCSC Type" "Extended"
+		(property "JLC Type" "Extended"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6995,7 +6995,7 @@
 			)
 		)
 
-		(property "LCSC Type" "Extended"
+		(property "JLC Type" "Extended"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7324,7 +7324,7 @@
 			)
 		)
 
-		(property "LCSC Type" "Extended"
+		(property "JLC Type" "Extended"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

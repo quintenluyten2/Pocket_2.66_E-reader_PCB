@@ -2,13 +2,13 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "47kΩ 0402 ±1%"
+	(symbol "SD103AWS-L SOD-323"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "R"
+		(property "Reference" "D"
 			(at 0 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "47kΩ 0402 ±1%"
+		(property "Value" "SD103AWS-L SOD-323"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LCSC:R0402"
+		(property "Footprint" "LCSC:C191023_SOD-323_L1_8-W1_3-LS2_5-RD"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40,6 +40,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at -2.286 0.127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SD103AWS-L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50,7 +61,7 @@
 				)
 			)
 		)
-		(property "Description" "FRC0402F4702TS"
+		(property "LCSC" "C41376466"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61,7 +72,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906872"
+		(property "Manufacturer" "PIELENST"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72,7 +83,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "ki_keywords" "SD103AWS-L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -83,32 +94,35 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0402F4702TS"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "SD103AWS-L SOD-323_1_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -1.27 2.032) (xy -1.778 2.032) (xy -1.778 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
-		)
-		(property "JLC Type" "Extended"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -1.27 -2.032) (xy -0.762 -2.032) (xy -0.762 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
-		)
-		(symbol "47kΩ 0402 ±1%_1_1"
-			(rectangle
-				(start -2.54 1.016)
-				(end 2.54 -1.016)
+			(polyline
+				(pts
+					(xy 1.27 1.524) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.524)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -117,10 +131,10 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin unspecified line
 				(at -5.08 0 0)
-				(length 2.54)
-				(name "1"
+				(length 3.81)
+				(name "K"
 					(effects
 						(font
 							(size 1 1)
@@ -135,10 +149,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin unspecified line
 				(at 5.08 0 180)
-				(length 2.54)
-				(name "2"
+				(length 3.81)
+				(name "A"
 					(effects
 						(font
 							(size 1 1)
@@ -154,6 +168,30 @@
 				)
 			)
 		)
+		(property "MPN" "SD103AWS-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+
+		(property "JLC Type" "Extended"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+
 		(embedded_fonts no)
 	)
 )
