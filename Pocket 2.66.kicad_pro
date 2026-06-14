@@ -76,120 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|118600000|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|ca2cabef-5bc1-4993-8eea-37d31c3d0517",
-          ""
-        ],
-        [
-          "copper_edge_clearance|118600000|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|ff1bbde2-d590-4e71-8981-456b3b2edfd6",
-          ""
-        ],
-        [
-          "copper_edge_clearance|119600000|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|39b022c8-3a0a-4fd9-aa72-2df0c30fb81d",
-          ""
-        ],
-        [
-          "copper_edge_clearance|119600000|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|c1652457-c8bd-4103-8733-84cbbd6d1872",
-          ""
-        ],
-        [
-          "copper_edge_clearance|120600000|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|005a4acc-2b04-433f-8102-b36315f5c4ac",
-          ""
-        ],
-        [
-          "copper_edge_clearance|120600000|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|0d63c0a8-0cf3-4377-8456-6c52a24d7934",
-          ""
-        ],
-        [
-          "copper_edge_clearance|121200000|71850000|66c2bda2-700a-4211-ba1c-65110faf321e|298d1b20-fa9c-4db9-acee-961161561635",
-          ""
-        ],
-        [
-          "copper_edge_clearance|121200000|71850000|66c2bda2-700a-4211-ba1c-65110faf321e|34dbf9a5-fb5f-41f7-87a7-95d1d57a6a27",
-          ""
-        ],
-        [
-          "copper_edge_clearance|121200000|72750000|c281ee67-a7ab-4a1c-b52a-4a1d040b8dc1|53b2381c-9551-4eb8-9f59-cca3d7b78dbb",
-          ""
-        ],
-        [
-          "copper_edge_clearance|121200000|72750000|c281ee67-a7ab-4a1c-b52a-4a1d040b8dc1|608a1a8c-734f-4653-9c6e-1cc56e3d6bb0",
-          ""
-        ],
-        [
-          "copper_edge_clearance|121200000|73650000|82dc16be-f7ec-4f35-b5e5-3c06a3767a2a|d59fac01-b266-4368-ad0a-44f5c4ca7f36",
-          ""
-        ],
-        [
-          "copper_edge_clearance|121850064|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|4db4e599-df77-4c46-9701-094b4e0bf775",
-          ""
-        ],
-        [
-          "copper_edge_clearance|123450000|74700000|ae076cec-30ac-4df3-8341-850c38984cae|02001b69-77ff-44e5-8ca8-08fea3e1b8a4",
-          ""
-        ],
-        [
-          "copper_edge_clearance|123450000|74700000|ae076cec-30ac-4df3-8341-850c38984cae|5d00082c-d628-4951-8e92-a8c35768123c",
-          ""
-        ],
-        [
-          "copper_edge_clearance|124450000|74700000|ae076cec-30ac-4df3-8341-850c38984cae|c472cbee-44b7-4d29-8660-da8777b30819",
-          ""
-        ],
-        [
-          "copper_edge_clearance|124450000|74700000|ae076cec-30ac-4df3-8341-850c38984cae|d53e477b-7502-4f62-84b8-d2952c3f2184",
-          ""
-        ],
-        [
-          "copper_edge_clearance|125450000|74700000|ae076cec-30ac-4df3-8341-850c38984cae|a56c7e9a-a82e-4f49-a29a-337dfef855fa",
-          ""
-        ],
-        [
-          "copper_edge_clearance|125450000|74700000|ae076cec-30ac-4df3-8341-850c38984cae|f99d85a8-6efe-42b6-84fd-32c7fc70ee4f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|125774879|73917450|3f7073d5-b7a9-4670-b94a-dccb17f9233b|49d53207-15ae-4823-bffc-c0da766717fb",
-          ""
-        ],
-        [
-          "copper_edge_clearance|126349936|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|a374de38-bc14-4b55-9d4b-ee98fde7018f",
-          "Deliberate pad to edge"
-        ],
-        [
-          "copper_edge_clearance|130650064|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|605d1a11-c725-4311-9ac4-3819f27dffd2",
-          ""
-        ],
-        [
-          "copper_edge_clearance|131224867|73900000|7bf5839b-aa9c-48f3-abef-153e972c1158|4c51d150-204a-4d77-b46a-e2750ee3f9ca",
-          ""
-        ],
-        [
-          "copper_edge_clearance|134574879|73900000|7bf5839b-aa9c-48f3-abef-153e972c1158|eeea0b11-f837-4e34-8192-bae54d303f39",
-          ""
-        ],
-        [
-          "copper_edge_clearance|135149936|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|9cca55a6-7a97-4fe6-9960-d965a086ad0e",
-          ""
-        ],
-        [
-          "copper_edge_clearance|139450064|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|18315c39-ba70-42cb-bff6-ae41621ae40d",
-          ""
-        ],
-        [
-          "copper_edge_clearance|140024867|73900000|7bf5839b-aa9c-48f3-abef-153e972c1158|cc2c9369-166c-4bb1-bcfc-e1c8ebf6437a",
-          ""
-        ],
-        [
-          "copper_edge_clearance|143374879|73900000|7bf5839b-aa9c-48f3-abef-153e972c1158|c5e79e3e-4c19-4ad1-bdc8-84faa4d8b0bc",
-          ""
-        ],
-        [
-          "copper_edge_clearance|143949936|70800000|1cae7a0b-f1f3-4960-8fdf-977ffa21f8f6|0582fb14-1231-48f6-b141-f3bdf3b2b3d3",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -261,7 +148,7 @@
         "max_error": 0.005,
         "min_clearance": 0.12,
         "min_connection": 0.12,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
@@ -274,7 +161,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.12,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.45,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -645,6 +532,17 @@
         "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.14,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -652,7 +550,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VUSB"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -704,10 +619,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -725,7 +640,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -749,7 +664,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -824,7 +739,7 @@
         "uuid": "1cd4c3f1-5659-46dd-b7c5-63c53cd89f06"
       }
     ],
-    "used_designators": "D1-3,D5,U2,Q1-2,C7-8,C10,C12,C14-15,R1,R3-4,R6-7,R11-15,R24",
+    "used_designators": "P1-2,#PWR23,#PWR27,#PWR53,C7-8,C10,C12,C14-15,Q1-2,D1-5,TP13,U2,R1,R3-4,R6-7,R11-15,R24",
     "variants": []
   },
   "sheets": [

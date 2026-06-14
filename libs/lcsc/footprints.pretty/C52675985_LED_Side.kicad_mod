@@ -1,0 +1,254 @@
+(footprint "C52675985_LED_Side"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "C2286_LED0603-RD footprint")
+	(tags "C2286_LED0603-RD footprint C2286")
+	(property "Reference" "REF**"
+		(at -0.049568 -2.756591 0)
+		(layer "F.SilkS")
+		(uuid "272be2a8-9754-4022-afc1-5d3c0c79404a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C52675985_LED_Side"
+		(at -0.049568 2.745847 0)
+		(layer "F.Fab")
+		(uuid "3b67abd3-0a43-4860-80a2-5381797e367e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e832094c-8527-4e36-9421-58c26da24381")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aac9dc94-c0bc-46f7-9425-396d3bbb3adb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.35 0.6)
+		(end -1.35 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "289cb03d-fe41-4316-9a41-6fc8b67422d6")
+	)
+	(fp_line
+		(start -0.65 0.6)
+		(end -1.35 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e557d2a5-670f-4ef9-89b5-f56b8fe67b0c")
+	)
+	(fp_line
+		(start 0.210465 0.32352)
+		(end -0.119583 -0.006528)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5153028-d0ae-4b84-94a4-cd558afc4840")
+	)
+	(fp_line
+		(start 0.220422 -0.356515)
+		(end 0.220422 -0.346533)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9db7257a-902b-42db-8f27-88d3a3a61da2")
+	)
+	(fp_line
+		(start 0.220422 -0.356515)
+		(end 0.220422 0.32352)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9227297c-e8b7-4bb0-b57c-a54ee3fc9b97")
+	)
+	(fp_line
+		(start 0.220422 -0.346533)
+		(end -0.119583 -0.006528)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30d1fd24-5057-43e6-a01f-ac0acfb96f05")
+	)
+	(fp_line
+		(start 0.220422 -0.006528)
+		(end -0.119583 -0.006528)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d79ee5f3-9fe5-478c-8e85-0ee7f19d7c21")
+	)
+	(fp_line
+		(start 0.220422 0.32352)
+		(end 0.210465 0.32352)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d022a109-381b-4e07-a424-818318c06524")
+	)
+	(fp_line
+		(start 0.65 0.6)
+		(end 1.35 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b3a39903-de58-47e1-ad75-df5084e85051")
+	)
+	(fp_line
+		(start 1.35 0.6)
+		(end 1.35 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fda91ed3-39c0-480c-821a-02dd497b3842")
+	)
+	(fp_circle
+		(center -0.799467 0.40348)
+		(end -0.769495 0.40348)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bd6d2e42-1e8a-44f0-814d-8f4488292289")
+	)
+	(fp_circle
+		(center -1.1 0)
+		(end -1 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "c5640e37-2a13-48be-aac5-9e621eb86f00")
+	)
+	(fp_poly
+		(pts
+			(xy -0.799568 0.4) (xy -0.799568 -0.4) (xy 0.800432 -0.4) (xy 0.800432 0.4)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "fae6c8a5-17e1-4a73-b9b8-ec679e1237f9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.049568 -0.005372 0)
+		(layer "F.Fab")
+		(uuid "387bc3a1-e2c4-4b67-829f-57834eac3ca3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0.000127 90)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca2691a9-6063-44b8-89f6-1799a80b10ab")
+	)
+	(pad "2" smd rect
+		(at 0.8 -0.000127 90)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2a7b5fe-127e-443d-8fa3-fd733ee060db")
+	)
+	(zone
+		(layers "F.SilkS" "F.CrtYd")
+		(uuid "bd3bb5ef-be69-45e6-9145-5004f4b4d36e")
+		(name "Side-illuminated LED field")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -0.7 -0.5) (xy -0.7 -1.6) (xy 0.8 -1.6) (xy 0.8 -0.5)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_LCSC_3D_MODEL_DIR}/C2286.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

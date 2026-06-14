@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0.000051 -2.710109 0)
 		(layer "F.SilkS")
-		(uuid "92ec508b-ca23-4fbb-8ce6-ba5719dd7f01")
+		(uuid "6daea9ff-8302-4cf1-adf3-22eaddceefd0")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "C59461_C0603"
 		(at 0.000051 2.710033 0)
 		(layer "F.Fab")
-		(uuid "c5cf1ed3-ddad-4018-a2c8-1eea37efe6ef")
+		(uuid "aa4b6645-b046-44e6-b863-19b53ca40bbd")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "807f4ff4-a96a-4465-88de-453df7acc2d9")
+		(uuid "3a61c91a-17b2-4397-bd40-f9be7838c108")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eece73c3-a96d-4758-9b21-f468fd42da6b")
+		(uuid "89f50368-c15d-41bf-96df-7b4824b45157")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "49d35420-332c-4313-803c-73144075a8d6")
+		(uuid "6c00bda0-2242-4397-974e-ef7ce0e69d5a")
 	)
 	(fp_line
 		(start -0.280188 -0.710109)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cb22d956-1225-484a-96c1-90c58b400260")
+		(uuid "2efb3661-4d90-439a-931f-0522bf6b8608")
 	)
 	(fp_line
 		(start -0.280188 0.709576)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3ee84e5b-bccb-49a3-8306-4add7554de39")
+		(uuid "d6854120-469b-4f01-b123-2d97c449e7ef")
 	)
 	(fp_line
 		(start 0.280264 -0.709627)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "780c3c5b-033e-4def-9b80-ab4eee87c73f")
+		(uuid "a59d419b-79c1-4215-888f-b32b9806710d")
 	)
 	(fp_line
 		(start 0.280264 0.710033)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "002fc751-1cc8-427f-86b0-904a26184b9c")
+		(uuid "8765c124-0d40-4b9c-a328-f8e52203e27a")
 	)
 	(fp_line
 		(start 1.390018 -0.399771)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "502ac1ab-dcca-41a6-932a-cd8d99530881")
+		(uuid "ec247c49-0b56-4604-ab2d-30699f8e2b70")
 	)
 	(fp_arc
 		(start -1.389916 -0.400229)
@@ -120,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ddd594ed-cd1b-4cc8-bcbc-1a6e28aa1101")
+		(uuid "44ef1245-a95f-4c80-875d-1a8396ffda88")
 	)
 	(fp_arc
 		(start -1.080112 0.709576)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "55ff1b0e-e672-46a1-aed6-32fc7ea3eed3")
+		(uuid "7d7b1959-6c05-4897-9f0a-3e9dec487c03")
 	)
 	(fp_arc
 		(start 1.080188 -0.709627)
@@ -142,7 +142,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7e8ad2e3-5982-4d98-9f40-53cdf342f7fd")
+		(uuid "94b1c3b5-8dce-4123-84cc-1fed95ae1b32")
 	)
 	(fp_arc
 		(start 1.390018 0.400203)
@@ -153,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8669338e-4113-4ac9-9fe2-a4b0e4b08b6d")
+		(uuid "92d43a81-d655-45f6-8b30-4a8b78e2e9d8")
 	)
 	(fp_circle
 		(center -0.800102 0.400051)
@@ -164,7 +164,18 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "8dd1e17e-ab7a-4655-951b-21511becec11")
+		(uuid "23dec131-2aee-45de-b5b1-da035b39aac3")
+	)
+	(fp_circle
+		(center -1 0)
+		(end -0.9 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "84b65556-ec65-4cd3-9c35-855608944f3e")
 	)
 	(fp_poly
 		(pts
@@ -176,12 +187,12 @@
 		)
 		(fill yes)
 		(layer "F.CrtYd")
-		(uuid "918807ea-a03a-4c50-83f6-e23f48782bf2")
+		(uuid "935e74a7-c856-47e9-baea-5d9a03b01ad4")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.000051 -0.000038 0)
 		(layer "F.Fab")
-		(uuid "cf2ddfcf-8cf7-42f9-bdca-9e4cc9d99114")
+		(uuid "4d534408-1c67-4950-a12d-50a5309b56d5")
 		(effects
 			(font
 				(size 1 1)
@@ -193,13 +204,13 @@
 		(at -0.700025 0)
 		(size 0.8 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0a3eaa90-0d26-4e85-8f70-b2e1867e5fe7")
+		(uuid "635a50dd-7b16-4396-b260-4a55636bd902")
 	)
 	(pad "2" smd rect
 		(at 0.700025 0)
 		(size 0.8 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "aa31e73b-da5a-41e2-ad18-1bd511a18748")
+		(uuid "f3962474-fd54-4366-8aa0-36d3a555ee33")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_LCSC_3D_MODEL_DIR}/C59461.wrl"

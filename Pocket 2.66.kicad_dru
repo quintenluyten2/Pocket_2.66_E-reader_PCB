@@ -2,9 +2,6 @@
 (rule Minimum_annular_width_1
 	(constraint annular_width (min 0.05mm))
 )
-(rule Minimum_drill_size_1
-	(constraint hole_size (min 0.3mm))
-)
 (rule Hole_to_hole_distance_1
 	(constraint hole_to_hole (min 0.2mm))
 )
@@ -23,4 +20,14 @@
 )
 (rule Courtyard_clearance_1
 	(constraint courtyard_clearance (min 0.1mm))
+)
+(rule "Vias under SMD 1"
+	(constraint disallow via)
+	(condition "A.Pad_Type == 'SMD'")
+)
+(rule "Minimum connection width 1"
+	(constraint connection_width (min 0.1mm))
+)
+(rule "Copper to hole clearance 1"
+	(constraint hole_clearance (min 0.2mm))
 )

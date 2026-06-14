@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.903607 0)
 		(layer "F.SilkS")
-		(uuid "34a915b0-1902-4057-8d8d-e6873571cf99")
+		(uuid "4dbb7da2-5d04-449b-813d-2817e1cad5f1")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "C1779_C0805"
 		(at 0 2.903607 0)
 		(layer "F.Fab")
-		(uuid "35bfbf25-0f9b-4722-8400-42ee623e8ba0")
+		(uuid "c6a3330b-4e56-49be-9555-57773a48c8cf")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c3de5cc7-7bbb-4327-9a71-e9b33871c04f")
+		(uuid "2456001e-1e6e-4d79-974e-3c8df8fdf49c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "91a857dd-3752-466a-b84a-81cf963eeab7")
+		(uuid "124ef9d9-c997-41a0-9cd9-0abc02e0f723")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ff999daf-b769-4016-8532-c150c5db68c0")
+		(uuid "c3e65c9f-4298-462c-abb5-55a02851212b")
 	)
 	(fp_line
 		(start -1.811201 -0.903607)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0d993f6a-9333-485b-97c3-61e9fbfba2c8")
+		(uuid "eda3d23a-1ae7-4847-97ce-6dcf1761154b")
 	)
 	(fp_line
 		(start -0.401194 0.903607)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "874978b1-eee0-4c14-943d-f33ce2f75b82")
+		(uuid "22c7de5a-d306-4426-bbbc-a23fe9be85f3")
 	)
 	(fp_line
 		(start 0.401194 0.903607)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5ae43ed4-e8b8-4cc1-8e0c-1298ddf23f86")
+		(uuid "6df348e1-7ad5-4032-b716-1a8f7f260d33")
 	)
 	(fp_line
 		(start 1.811201 -0.903607)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b0f9d5c9-ade8-4ac6-aeef-61c30520f9df")
+		(uuid "3c2670f1-e755-45ec-8944-415ba13b44b0")
 	)
 	(fp_line
 		(start 1.963602 0.751207)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4973c2e9-f021-4878-8084-c782a9cf66fd")
+		(uuid "4ae557a8-a133-49f1-ae1a-e5bb7226475b")
 	)
 	(fp_arc
 		(start -1.963602 -0.751207)
@@ -120,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "858afd20-40fa-4348-aff7-b256b53b6eb7")
+		(uuid "7197208e-44f6-4ee1-84eb-ec53c22c14f3")
 	)
 	(fp_arc
 		(start -1.811201 0.903607)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3d1a907f-af33-4436-9257-a927d36dcef7")
+		(uuid "8b53b906-038b-4127-b965-9c6541c91515")
 	)
 	(fp_arc
 		(start 1.811201 -0.903607)
@@ -142,7 +142,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "34e14066-c793-4784-bb13-ca9d3fe5a90a")
+		(uuid "5c791b9f-b650-4bff-ac3c-ce075da55a58")
 	)
 	(fp_arc
 		(start 1.963602 0.751207)
@@ -153,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "36bbf47a-4e3a-4367-8716-9d651a7b7049")
+		(uuid "535a8526-d3a2-4d62-884b-529a81680e42")
 	)
 	(fp_circle
 		(center -1 0.625095)
@@ -164,7 +164,18 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "071888e1-1fad-473a-b717-800f2bb27d16")
+		(uuid "cb4867e9-550a-41ad-8268-9411bc203d75")
+	)
+	(fp_circle
+		(center -1.863602 0)
+		(end -1.763602 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "314e00ab-dcfb-4a36-bf3d-2f841fe7380a")
 	)
 	(fp_poly
 		(pts
@@ -176,12 +187,12 @@
 		)
 		(fill yes)
 		(layer "F.CrtYd")
-		(uuid "63c40f5c-6665-418a-8928-a9c9478b356f")
+		(uuid "c4ffa2a6-5bfb-42db-b0de-5640556b306a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "90ba1016-176f-43fa-b52a-90b29562439a")
+		(uuid "6bac18fd-735d-4efc-a468-71bc49bc1778")
 		(effects
 			(font
 				(size 1 1)
@@ -193,13 +204,13 @@
 		(at -1 0)
 		(size 1.410008 1.350013)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "28b34f6c-6b20-45aa-b18e-46dbabb90f40")
+		(uuid "90abeed5-5df9-42ae-bb42-2f000ab96d19")
 	)
 	(pad "2" smd rect
 		(at 1 0)
 		(size 1.410008 1.350013)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c5bec6e4-0442-4cc9-8001-f718db4bdcf2")
+		(uuid "282bd51a-b927-4ce5-8082-a8a6f68d8925")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_LCSC_3D_MODEL_DIR}/C1779.wrl"

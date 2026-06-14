@@ -2,13 +2,13 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "picoblade 2-pin"
+	(symbol "LED Yel Side"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "CN"
+		(property "Reference" "D"
 			(at 0 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "HX-1.25-2AWB"
+		(property "Value" "LED Yel Side"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LCSC:C52016406_CONN-SMD_2P-P1_25_HX-1_25-2AWB"
+		(property "Footprint" "LCSC:C52675985_LED_Side"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39,7 +39,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "None"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52675985.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=QwcMU1FQRlVaX11eRFUIVVBSQlhbBFAHFQJbA1YFEQcxVlNeR1BcV1JVTlZZUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlNYUFFfT1RADxALGw%3D%3D"
 			(at -2.286 0.127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50,7 +50,7 @@
 				)
 			)
 		)
-		(property "Description" "HX-1.25-2AWB"
+		(property "Description" "0603"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61,7 +61,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52016406"
+		(property "LCSC" "C52675985"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72,7 +72,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "hanxia"
+		(property "Manufacturer" "CHONGTIAN"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -83,7 +83,7 @@
 				)
 			)
 		)
-		(property "MPN" "HX-1.25-2AWB"
+		(property "MPN" "CT-1706UYC-P11"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -105,10 +105,11 @@
 				)
 			)
 		)
-		(symbol "picoblade 2-pin_1_1"
-			(rectangle
-				(start -5.08 5.08)
-				(end 1.27 -5.08)
+		(symbol "LED Yel Side_1_1"
+			(polyline
+				(pts
+					(xy -3.81 3.302) (xy -2.794 2.794) (xy -3.302 2.286) (xy -3.81 3.302)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -117,9 +118,58 @@
 					(type background)
 				)
 			)
-			(circle
-				(center 0 2.54)
-				(radius 0.381)
+			(polyline
+				(pts
+					(xy -2.794 4.318) (xy -1.778 3.81) (xy -2.286 3.302) (xy -2.794 4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 1.524) (xy -3.81 3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.032) (xy -1.27 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 2.54) (xy -2.794 4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.524) (xy -1.27 0) (xy 1.27 1.778) (xy 1.27 -1.524)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -129,9 +179,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 3.81 1.27 180)
-				(length 2.54)
-				(name "1"
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "K"
 					(effects
 						(font
 							(size 1 1)
@@ -147,9 +197,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 3.81 -1.27 180)
-				(length 2.54)
-				(name "2"
+				(at 5.08 0 180)
+				(length 3.81)
+				(name "A"
 					(effects
 						(font
 							(size 1 1)
@@ -157,42 +207,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -3.81 7.62 270)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -3.81 -7.62 90)
-				(length 2.54)
-				(name "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1 1)

@@ -94,6 +94,17 @@
 				)
 			)
 		)
+		(property "JLC Type" "Basic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "2KΩ 0402 ±1%_1_1"
 			(rectangle
 				(start -2.54 1.016)
