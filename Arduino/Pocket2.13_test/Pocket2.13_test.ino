@@ -21,7 +21,7 @@
 #define SPI_MOSI        21
 #define SPI_SCK         20
 
-#define SD_CS           1   // microSD CS on this custom board
+#define SD_CS           1   // microSD CS
 
 #define EPD_CS          8   // E-ink CS
 #define EPD_DC          7   // E-ink Data/Command line
@@ -271,7 +271,7 @@ HeltecV11_JD79656 display(EPD_DC, EPD_RESET, EPD_CS, EPD_BUSY, &SPI);
 // -----------------------------------------------------------------------------
 // Buttons.
 // -----------------------------------------------------------------------------
-struct ButtonReading {
+typedef struct ButtonReading {
   int raw;
   uint32_t millivolts_est;
   const char *state;
@@ -289,7 +289,7 @@ ButtonReading readButtons() {
   // Thresholds are deliberately wide because the ESP32 ADC is not a precision meter.
   if (r.raw < 800) {
     r.state = "BUT1";
-  } else if (r.raw > 3200) {
+  } else if (r.raw > 2400) {
     r.state = "NONE";
   } else {
     r.state = "BUT2";
